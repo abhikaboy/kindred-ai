@@ -1,5 +1,5 @@
 from datetime import datetime
-from transformers import T5Tokenizer, T5ForConditionalGeneration, Trainer, TrainingArguments
+from transformers import T5Tokenizer, T5ForConditionalGeneration, Trainer, TrainingArguments, EarlyStoppingCallback
 from datasets import Dataset
 from torch.utils.tensorboard import SummaryWriter
 import json
@@ -70,9 +70,9 @@ for split_name, split_dataset in dataset_splits.items():
     )
     # Show an example from each processed split
     print(f"Example from {split_name}:")
-    example_features = {k: v[0].tolist() for k, v in tokenized_datasets[split_name][0].items()}
-    for k, v in example_features.items():
-        print(f"  {k}: {v[:10]}... (length: {len(v)})")
+    # example_features = {k: v[0].tolist() for k, v in tokenized_datasets[split_name][0].items()}
+    # for k, v in example_features.items():
+    #     print(f"  {k}: {v[:10]}... (length: {len(v)})")
 
 
 
@@ -130,6 +130,7 @@ def compute_json_accuracy(eval_preds):
                         field_accuracy[field] += 1
         except:
             # Invalid JSON prediction
+            print("Failed JSON Validation")
             pass
     
     # Calculate accuracies
@@ -175,8 +176,8 @@ training_args = TrainingArguments(
 
 # Set up early stopping
 early_stopping_callback = EarlyStoppingCallback(
-    early_stopping_patience=3,
-    early_stopping_threshold=0.01
+    early_stopping_patience=30,
+    early_stopping_threshold=0.05
 )
 
 # PyTorch Trainer with custom logging
@@ -184,7 +185,7 @@ class CustomTrainer(Trainer):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
     
-    def compute_loss(self, model, inputs, return_outputs=False):
+    def compute_loss(self, model, inputs, num_items_in_batch, return_outputs=False):
         # Standard PyTorch forward pass
         outputs = model(**inputs)
         loss = outputs.loss
@@ -215,7 +216,11 @@ activation = {}
 
 def get_activation(name):
     def hook(model, input, output):
-        activation[name] = output.detach()
+        # Handle tuple outputs by storing the first element
+        if isinstance(output, tuple):
+            activation[name] = output[0].detach()
+        else:
+            activation[name] = output.detach()
     return hook
 
 # Add hooks to key parts of the model
