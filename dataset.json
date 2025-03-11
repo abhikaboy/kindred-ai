@@ -1,0 +1,1239 @@
+{
+	"train": [
+		{
+			"input": "Pick up groceries after work.",
+			"output": {
+				"priority": 2,
+				"content": "Pick up groceries",
+				"difficulty": 1,
+				"recurring": false,
+				"public": true,
+				"active": true,
+				"startTime": "17:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Call mom to wish her a happy birthday.",
+			"output": {
+				"priority": 1,
+				"content": "Call mom to wish her a happy birthday",
+				"difficulty": 1,
+				"recurring": false,
+				"public": true,
+				"active": true
+			}
+		},
+		{
+			"input": "Finish the presentation for the client meeting by Friday.",
+			"output": {
+				"priority": 1,
+				"content": "Finish the presentation for the client meeting",
+				"difficulty": 3,
+				"recurring": false,
+				"public": true,
+				"active": true,
+				"deadline": "2025-03-14T23:59"
+			}
+		},
+		{
+			"input": "Take the dog for a walk in the evening every day.",
+			"output": {
+				"priority": 2,
+				"content": "Take the dog for a walk",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "18:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Clean out the garage this weekend.",
+			"output": {
+				"priority": 3,
+				"content": "Clean out the garage",
+				"difficulty": 4,
+				"recurring": false,
+				"public": true,
+				"active": true,
+				"startDay": "2025-03-15",
+				"deadline": "2025-03-16T23:59"
+			}
+		},
+		{
+			"input": "Book flights for the vacation next month.",
+			"output": {
+				"priority": 2,
+				"content": "Book flights for the vacation",
+				"difficulty": 2,
+				"recurring": false,
+				"public": true,
+				"active": true
+			}
+		},
+		{
+			"input": "Respond to the email from the HR department by tomorrow.",
+			"output": {
+				"priority": 1,
+				"content": "Respond to the email from the HR department",
+				"difficulty": 2,
+				"recurring": false,
+				"public": true,
+				"active": true,
+				"deadline": "2025-03-11T23:59"
+			}
+		},
+		{
+			"input": "Fix the leaky faucet in the bathroom.",
+			"output": {
+				"priority": 2,
+				"content": "Fix the leaky faucet in the bathroom",
+				"difficulty": 3,
+				"recurring": false,
+				"public": true,
+				"active": true
+			}
+		},
+		{
+			"input": "Plan the menu for the dinner party on Saturday.",
+			"output": {
+				"priority": 2,
+				"content": "Plan the menu for the dinner party",
+				"difficulty": 2,
+				"recurring": false,
+				"public": true,
+				"active": true,
+				"startDay": "2025-03-15",
+				"deadline": "2025-03-15T23:59"
+			}
+		},
+		{
+			"input": "Donate old clothes to the charity shop next week.",
+			"output": {
+				"priority": 3,
+				"content": "Donate old clothes to the charity shop",
+				"difficulty": 1,
+				"recurring": false,
+				"public": true,
+				"active": true,
+				"deadline": "2025-03-15T23:59"
+			}
+		},
+		{
+			"input": "Schedule a check-up with the doctor every 6 months.",
+			"output": {
+				"priority": 2,
+				"content": "Schedule a check-up with the doctor",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["10"],
+					"nextDate": "2025-09-10",
+					"every": 6
+				},
+				"public": true,
+				"active": true
+			}
+		},
+		{
+			"input": "Research new recipes for meal prep every Sunday.",
+			"output": {
+				"priority": 3,
+				"content": "Research new recipes for meal prep",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, false, false, true],
+					"nextDate": "2025-03-16"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "10:00",
+				"deadline": "2025-03-16T23:59"
+			}
+		},
+		{
+			"input": "Pay the electricity bill by the due date.",
+			"output": {
+				"priority": 1,
+				"content": "Pay the electricity bill",
+				"difficulty": 1,
+				"recurring": false,
+				"public": true,
+				"active": true,
+				"deadline": "2025-03-15T23:59"
+			}
+		},
+		{
+			"input": "Organize the files on the computer every Friday.",
+			"output": {
+				"priority": 3,
+				"content": "Organize the files on the computer",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, true, false, false],
+					"nextDate": "2025-03-14"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "14:00",
+				"deadline": "2025-03-14T23:59"
+			}
+		},
+		{
+			"input": "Write thank-you notes for the wedding gifts.",
+			"output": {
+				"priority": 2,
+				"content": "Write thank-you notes for the wedding gifts",
+				"difficulty": 2,
+				"recurring": false,
+				"public": true,
+				"active": true
+			}
+		},
+		{
+			"input": "Buy a gift for Sarah's birthday by next Friday.",
+			"output": {
+				"priority": 2,
+				"content": "Buy a gift for Sarah's birthday",
+				"difficulty": 2,
+				"recurring": false,
+				"public": true,
+				"active": true,
+				"deadline": "2025-03-14T23:59"
+			}
+		},
+		{
+			"input": "Practice the guitar for at least 30 minutes every day.",
+			"output": {
+				"priority": 3,
+				"content": "Practice the guitar",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "19:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Return the library books before they're overdue.",
+			"output": {
+				"priority": 2,
+				"content": "Return the library books",
+				"difficulty": 1,
+				"recurring": false,
+				"public": true,
+				"active": true
+			}
+		},
+		{
+			"input": "Update the software on the laptop every month.",
+			"output": {
+				"priority": 2,
+				"content": "Update the software on the laptop",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["10"],
+					"nextDate": "2025-04-10",
+					"every": 1
+				},
+				"public": true,
+				"active": true
+			}
+		},
+		{
+			"input": "Plan a surprise anniversary dinner for next week.",
+			"output": {
+				"priority": 2,
+				"content": "Plan a surprise anniversary dinner",
+				"difficulty": 3,
+				"recurring": false,
+				"public": true,
+				"active": true
+			}
+		},
+		{
+			"input": "Water the indoor plants every Monday and Thursday.",
+			"output": {
+				"priority": 2,
+				"content": "Water the indoor plants",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [true, false, false, true, false, false, false],
+					"nextDate": "2025-03-13"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "18:00",
+				"deadline": "2025-03-13T23:59"
+			}
+		},
+		{
+			"input": "Review the budget for the upcoming project by next Monday.",
+			"output": {
+				"priority": 1,
+				"content": "Review the budget for the upcoming project",
+				"difficulty": 3,
+				"recurring": false,
+				"public": true,
+				"active": true,
+				"deadline": "2025-03-17T23:59"
+			}
+		},
+		{
+			"input": "Pick up the dry cleaning on the way home.",
+			"output": {
+				"priority": 2,
+				"content": "Pick up the dry cleaning",
+				"difficulty": 1,
+				"recurring": false,
+				"public": true,
+				"active": true,
+				"startTime": "17:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Sign up for the yoga class starting next month.",
+			"output": {
+				"priority": 3,
+				"content": "Sign up for the yoga class",
+				"difficulty": 1,
+				"recurring": false,
+				"public": true,
+				"active": true
+			}
+		},
+		{
+			"input": "Send the contract to the client for approval by EOD.",
+			"output": {
+				"priority": 1,
+				"content": "Send the contract to the client for approval",
+				"difficulty": 2,
+				"recurring": false,
+				"public": true,
+				"active": true,
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Go for a morning run at 6:00 AM every day.",
+			"output": {
+				"priority": 2,
+				"content": "Go for a morning run",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "06:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Meditate for 15 minutes every evening at 7:00 PM.",
+			"output": {
+				"priority": 2,
+				"content": "Meditate for 15 minutes",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "19:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Read a chapter of a book before bed at 9:00 PM.",
+			"output": {
+				"priority": 3,
+				"content": "Read a chapter of a book",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "21:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Check emails at 8:00 AM every weekday.",
+			"output": {
+				"priority": 2,
+				"content": "Check emails",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [true, true, true, true, true, false, false],
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "08:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Water the garden every morning at 7:30 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Water the garden",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "07:30",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Take vitamins with breakfast at 8:00 AM daily.",
+			"output": {
+				"priority": 2,
+				"content": "Take vitamins with breakfast",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "08:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Walk the dog at 6:30 PM every evening.",
+			"output": {
+				"priority": 2,
+				"content": "Walk the dog",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "18:30",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Journal for 10 minutes every night at 10:00 PM.",
+			"output": {
+				"priority": 3,
+				"content": "Journal for 10 minutes",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "22:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Stretch for 5 minutes every morning at 7:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Stretch for 5 minutes",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "07:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Review the day's schedule at 8:30 AM every weekday.",
+			"output": {
+				"priority": 2,
+				"content": "Review the day's schedule",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [true, true, true, true, true, false, false],
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "08:30",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Prepare lunch for the next day at 8:00 PM every night.",
+			"output": {
+				"priority": 2,
+				"content": "Prepare lunch for the next day",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "20:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Check the weather forecast at 7:00 AM every morning.",
+			"output": {
+				"priority": 2,
+				"content": "Check the weather forecast",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "07:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Feed the cat at 7:00 AM and 7:00 PM daily.",
+			"output": {
+				"priority": 2,
+				"content": "Feed the cat",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "07:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Set out clothes for the next day at 9:00 PM every night.",
+			"output": {
+				"priority": 2,
+				"content": "Set out clothes for the next day",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "21:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Brush teeth at 7:00 AM and 9:00 PM daily.",
+			"output": {
+				"priority": 2,
+				"content": "Brush teeth",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "07:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Listen to a podcast during the morning commute at 8:00 AM.",
+			"output": {
+				"priority": 3,
+				"content": "Listen to a podcast during the morning commute",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [true, true, true, true, true, false, false],
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "08:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Do a 10-minute workout at 6:30 AM every weekday.",
+			"output": {
+				"priority": 2,
+				"content": "Do a 10-minute workout",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [true, true, true, true, true, false, false],
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "06:30",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Write a to-do list for the next day at 8:00 PM every night.",
+			"output": {
+				"priority": 2,
+				"content": "Write a to-do list for the next day",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "20:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Check the stock market at 9:00 AM every weekday.",
+			"output": {
+				"priority": 2,
+				"content": "Check the stock market",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [true, true, true, true, true, false, false],
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "09:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Water the indoor plants every Monday and Thursday at 6:00 PM.",
+			"output": {
+				"priority": 2,
+				"content": "Water the indoor plants",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [true, false, false, true, false, false, false],
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "18:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Review the weekly budget every Sunday at 10:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Review the weekly budget",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, false, false, true],
+					"nextDate": "2025-03-16"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "10:00",
+				"deadline": "2025-03-16T23:59"
+			}
+		},
+		{
+			"input": "Backup the computer every Friday at 5:00 PM.",
+			"output": {
+				"priority": 2,
+				"content": "Backup the computer",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, true, false, false],
+					"nextDate": "2025-03-14"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "17:00",
+				"deadline": "2025-03-14T23:59"
+			}
+		},
+		{
+			"input": "Plan meals for the week every Sunday at 11:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Plan meals for the week",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, false, false, true],
+					"nextDate": "2025-03-16"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "11:00",
+				"deadline": "2025-03-16T23:59"
+			}
+		},
+		{
+			"input": "Clean the kitchen every night at 8:30 PM.",
+			"output": {
+				"priority": 2,
+				"content": "Clean the kitchen",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "DAY",
+					"every": 1,
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "20:30",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Do laundry every Saturday at 10:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Do laundry",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, false, true, false],
+					"nextDate": "2025-03-15"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "10:00",
+				"deadline": "2025-03-15T23:59"
+			}
+		},
+		{
+			"input": "Clean the bathroom every other week on Sunday at 9:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Clean the bathroom",
+				"difficulty": 3,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, false, false, true],
+					"nextDate": "2025-03-16",
+					"every": 2
+				},
+				"public": true,
+				"active": true,
+				"startTime": "09:00",
+				"deadline": "2025-03-16T23:59"
+			}
+		},
+		{
+			"input": "Review monthly expenses on the 1st of every month at 9:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Review monthly expenses",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["1"],
+					"nextDate": "2025-04-01",
+					"every": 1
+				},
+				"public": true,
+				"active": true,
+				"startTime": "09:00",
+				"deadline": "2025-04-01T23:59"
+			}
+		},
+		{
+			"input": "Change bed sheets every two weeks on Saturday at 11:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Change bed sheets",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, false, true, false],
+					"nextDate": "2025-03-15",
+					"every": 2
+				},
+				"public": true,
+				"active": true,
+				"startTime": "11:00",
+				"deadline": "2025-03-15T23:59"
+			}
+		},
+		{
+			"input": "Pay rent on the 1st of every month at 12:00 PM.",
+			"output": {
+				"priority": 1,
+				"content": "Pay rent",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["1"],
+					"nextDate": "2025-04-01",
+					"every": 1
+				},
+				"public": true,
+				"active": true,
+				"startTime": "12:00",
+				"deadline": "2025-04-01T23:59"
+			}
+		},
+		{
+			"input": "Attend the team meeting every Monday at 10:00 AM.",
+			"output": {
+				"priority": 1,
+				"content": "Attend the team meeting",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [true, false, false, false, false, false, false],
+					"nextDate": "2025-03-10"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "10:00",
+				"deadline": "2025-03-10T23:59"
+			}
+		},
+		{
+			"input": "Go grocery shopping every Saturday at 9:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Go grocery shopping",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, false, true, false],
+					"nextDate": "2025-03-15"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "09:00",
+				"deadline": "2025-03-15T23:59"
+			}
+		},
+		{
+			"input": "Clean the car every Sunday at 2:00 PM.",
+			"output": {
+				"priority": 3,
+				"content": "Clean the car",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, false, false, true],
+					"nextDate": "2025-03-16"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "14:00",
+				"deadline": "2025-03-16T23:59"
+			}
+		},
+		{
+			"input": "Do a deep clean of the house every Friday at 4:00 PM.",
+			"output": {
+				"priority": 2,
+				"content": "Do a deep clean of the house",
+				"difficulty": 3,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, true, false, false],
+					"nextDate": "2025-03-14"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "16:00",
+				"deadline": "2025-03-14T23:59"
+			}
+		},
+		{
+			"input": "Review the weekly project progress every Wednesday at 3:00 PM.",
+			"output": {
+				"priority": 1,
+				"content": "Review the weekly project progress",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, true, false, false, false, false],
+					"nextDate": "2025-03-12"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "15:00",
+				"deadline": "2025-03-12T23:59"
+			}
+		},
+		{
+			"input": "Water the outdoor plants every Tuesday and Thursday at 6:00 PM.",
+			"output": {
+				"priority": 2,
+				"content": "Water the outdoor plants",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, true, false, true, false, false, false],
+					"nextDate": "2025-03-11"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "18:00",
+				"deadline": "2025-03-11T23:59"
+			}
+		},
+		{
+			"input": "Plan the week's meals every Sunday at 11:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Plan the week's meals",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, false, false, true],
+					"nextDate": "2025-03-16"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "11:00",
+				"deadline": "2025-03-16T23:59"
+			}
+		},
+		{
+			"input": "Backup important files every Friday at 5:00 PM.",
+			"output": {
+				"priority": 2,
+				"content": "Backup important files",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, true, false, false],
+					"nextDate": "2025-03-14"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "17:00",
+				"deadline": "2025-03-14T23:59"
+			}
+		},
+		{
+			"input": "Attend yoga class every Tuesday and Thursday at 7:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Attend yoga class",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, true, false, true, false, false, false],
+					"nextDate": "2025-03-11"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "07:00",
+				"deadline": "2025-03-11T23:59"
+			}
+		},
+		{
+			"input": "Review the budget every Sunday at 10:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Review the budget",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "WEEK",
+					"days": [false, false, false, false, false, false, true],
+					"nextDate": "2025-03-16"
+				},
+				"public": true,
+				"active": true,
+				"startTime": "10:00",
+				"deadline": "2025-03-16T23:59"
+			}
+		},
+		{
+			"input": "Pay the electricity bill on the 5th of every month at 12:00 PM.",
+			"output": {
+				"priority": 1,
+				"content": "Pay the electricity bill",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["5"],
+					"nextDate": "2025-04-05",
+					"every": 1
+				},
+				"public": true,
+				"active": true,
+				"startTime": "12:00",
+				"deadline": "2025-04-05T23:59"
+			}
+		},
+		{
+			"input": "Change the air filters every 3 months on the 1st at 9:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Change the air filters",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["1"],
+					"nextDate": "2025-06-01",
+					"every": 3
+				},
+				"public": true,
+				"active": true,
+				"startTime": "09:00",
+				"deadline": "2025-06-01T23:59"
+			}
+		},
+		{
+			"input": "Review the monthly budget on the 1st of every month at 10:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Review the monthly budget",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["1"],
+					"nextDate": "2025-04-01",
+					"every": 1
+				},
+				"public": true,
+				"active": true,
+				"startTime": "10:00",
+				"deadline": "2025-04-01T23:59"
+			}
+		},
+		{
+			"input": "Clean the refrigerator on the 15th of every month at 11:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Clean the refrigerator",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["15"],
+					"nextDate": "2025-04-15",
+					"every": 1
+				},
+				"public": true,
+				"active": true,
+				"startTime": "11:00",
+				"deadline": "2025-04-15T23:59"
+			}
+		},
+		{
+			"input": "Replace the water filter every 6 months on the 1st at 8:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Replace the water filter",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["1"],
+					"nextDate": "2025-09-01",
+					"every": 6
+				},
+				"public": true,
+				"active": true,
+				"startTime": "08:00",
+				"deadline": "2025-09-01T23:59"
+			}
+		},
+		{
+			"input": "Check the smoke detectors on the 1st of every month at 9:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Check the smoke detectors",
+				"difficulty": 1,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["1"],
+					"nextDate": "2025-04-01",
+					"every": 1
+				},
+				"public": true,
+				"active": true,
+				"startTime": "09:00",
+				"deadline": "2025-04-01T23:59"
+			}
+		},
+		{
+			"input": "Rotate the tires every 6 months on the 1st at 10:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Rotate the tires",
+				"difficulty": 3,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["1"],
+					"nextDate": "2025-09-01",
+					"every": 6
+				},
+				"public": true,
+				"active": true,
+				"startTime": "10:00",
+				"deadline": "2025-09-01T23:59"
+			}
+		},
+		{
+			"input": "Update the emergency kit on the 1st of every month at 11:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Update the emergency kit",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["1"],
+					"nextDate": "2025-04-01",
+					"every": 1
+				},
+				"public": true,
+				"active": true,
+				"startTime": "11:00",
+				"deadline": "2025-04-01T23:59"
+			}
+		},
+		{
+			"input": "Clean the gutters every 3 months on the 1st at 9:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Clean the gutters",
+				"difficulty": 3,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["1"],
+					"nextDate": "2025-06-01",
+					"every": 3
+				},
+				"public": true,
+				"active": true,
+				"startTime": "09:00",
+				"deadline": "2025-06-01T23:59"
+			}
+		},
+		{
+			"input": "Review the investment portfolio on the 1st of every month at 10:00 AM.",
+			"output": {
+				"priority": 2,
+				"content": "Review the investment portfolio",
+				"difficulty": 2,
+				"recurring": true,
+				"recurDetails": {
+					"frequency": "MONTH",
+					"days": ["1"],
+					"nextDate": "2025-04-01",
+					"every": 1
+				},
+				"public": true,
+				"active": true,
+				"startTime": "10:00",
+				"deadline": "2025-04-01T23:59"
+			}
+		}
+	],
+	"validation": [],
+	"test": []
+}

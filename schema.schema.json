@@ -1,0 +1,72 @@
+{
+	"Task": {
+		"_id": "ObjectId",
+		"priority": { "type": "integer", "enum": [1, 2, 3] },
+		"content": { "type": "string" },
+		"difficulty": { "type": "integer", "enum": [1, 2, 3, 4, 5] },
+		"recurring": { "type": "boolean" },
+		"notes": { "type": "string" },
+		"checklist": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/ChecklistItem" }
+		},
+		"recurDetails": {
+			"oneOf": [
+				{ "$ref": "#/definitions/MonthlyRecur" },
+				{ "$ref": "#/definitions/WeeklyRecur" },
+				{ "$ref": "#/definitions/DayRecur" }
+			]
+		},
+		"public": { "type": "boolean" },
+		"active": { "type": "boolean" },
+		"deadline": { "type": "string", "format": "date" },
+		"startDay": { "type": "string", "format": "date" },
+		"startTime": { "type": "string", "format": "timestamp" }
+	},
+	"definitions": {
+		"ChecklistItem": {
+			"type": "object",
+			"properties": {
+				"name": { "type": "string" },
+				"completed": { "type": "boolean" }
+			},
+			"required": ["name", "completed"]
+		},
+		"WeeklyRecur": {
+			"type": "object",
+			"properties": {
+				"frequency": { "type": "string", "enum": ["WEEK"] },
+				"days": {
+					"type": "array",
+					"items": { "type": "boolean" },
+					"minItems": 7,
+					"maxItems": 7
+				},
+				"nextDate": { "type": "string" }
+			},
+			"required": ["frequency", "days", "nextDate"]
+		},
+		"MonthlyRecur": {
+			"type": "object",
+			"properties": {
+				"frequency": { "type": "string", "enum": ["MONTH"] },
+				"days": {
+					"type": "array",
+					"items": { "type": "string" }
+				},
+				"nextDate": { "type": "string" },
+				"every": { "type": "integer" }
+			},
+			"required": ["frequency", "days", "nextDate", "every"]
+		},
+		"DayRecur": {
+			"type": "object",
+			"properties": {
+				"frequency": { "type": "string", "enum": ["DAY"] },
+				"every": { "type": "integer" },
+				"nextDate": { "type": "string" }
+			},
+			"required": ["frequency", "every", "nextDate"]
+		}
+	}
+}
