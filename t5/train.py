@@ -4,12 +4,17 @@ from datasets import Dataset
 from torch.utils.tensorboard import SummaryWriter
 import json
 import numpy as np
+import torch
+import torch.nn.functional as F
 
 # Load the JSON dataset 
 dataset = json.loads(open("data.json").read())
 
 # Load the tokenizer
 tokenizer = T5Tokenizer.from_pretrained("t5-base")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+print(f"Using Device: {device}")
 
 inputs = [entry["input"] for entry in dataset]
 outputs = [json.dumps(entry["output"]) for entry in dataset]
@@ -31,7 +36,7 @@ dataset_splits = {
 
 print(f"Train: {len(dataset_splits['train'])} examples")
 print(f"Validation: {len(dataset_splits['validation'])} examples")
-print(f"Test: {len(dataset_splits['test'])} examples")
+print(f"Test: {dataset_splits['test']} examples")
 
 
 def preprocess(entries):
@@ -46,7 +51,7 @@ def preprocess(entries):
     # Tokenize outputs
     labels = tokenizer(
         entries["output"],
-        max_length=512,
+        max_length=1024,
         padding="max_length",
         truncation=True,
         return_tensors="pt"
@@ -77,8 +82,10 @@ for split_name, split_dataset in dataset_splits.items():
 
 
 # Model 
-model = T5ForConditionalGeneration.from_pretrained("t5-base")
 
+# 
+model = T5ForConditionalGeneration.from_pretrained("t5-base")
+model.to(device)
 # Print model architecture details
 print("\nModel Information:")
 print(f"Model type: {model.__class__.__name__}")
@@ -94,11 +101,36 @@ print(f"LM Head shape: {model.lm_head.weight.shape}")
 
 
 def compute_json_accuracy(eval_preds):
+    print("Now evaluating accuracy")
     predictions, labels = eval_preds
+
+    if isinstance(predictions, tuple):
+        predictions = predictions[0] 
+        tensor = torch.from_numpy(predictions)
+        predictions =  np.argmax(predictions, axis=-1) # getting a 3d tensor
+        print("Getting Tuple")
+        print(tensor)
     
-    # Decode predictions and labels
-    decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
-    decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+    labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
+    
+    try:
+        # Decode predictions and labels
+        print("Decoding:\n")
+        print("Checking Tensor:" + str(torch.is_tensor(predictions[0])))
+        
+        # predictions[0] = np.where(labels != -100, labels, tokenizer.pad_token_id)
+        print()
+        single = tokenizer.decode(predictions[0], skip_special_tokens=True)
+        print("\ndecoded:")
+        print(single)
+
+        decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
+        decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+    except Exception as e:
+        print(f"Error in decoding: {e}")
+        print(f"Predictions shape: {predictions.shape}, dtype: {predictions.dtype}")
+        print(f"Label: {labels}")
+        pass
     
     # Track different types of accuracy
     exact_match = 0
@@ -142,7 +174,9 @@ def compute_json_accuracy(eval_preds):
     # Add field-level accuracies
     for field, correct in field_accuracy.items():
         results[f"{field}_accuracy"] = correct / total_count
-    
+    print("Final result:")
+    print(results)
+
     return results
 
 
@@ -162,9 +196,9 @@ training_args = TrainingArguments(
     save_steps=100,
     logging_dir=log_dir,
     logging_steps=10,
-    per_device_train_batch_size=4,
-    per_device_eval_batch_size=4,
-    learning_rate=5e-5,
+    per_device_train_batch_size=2,
+    per_device_eval_batch_size=2,
+    learning_rate=5e-4,
     weight_decay=0.01,
     num_train_epochs=5,
     load_best_model_at_end=True,
@@ -185,7 +219,7 @@ class CustomTrainer(Trainer):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
     
-    def compute_loss(self, model, inputs, num_items_in_batch, return_outputs=False):
+    def compute_loss(self, model, inputs, num_items_in_batch=0, return_outputs=False):
         # Standard PyTorch forward pass
         outputs = model(**inputs)
         loss = outputs.loss
@@ -226,21 +260,27 @@ def get_activation(name):
 # Add hooks to key parts of the model
 model.encoder.block[0].layer[0].SelfAttention.register_forward_hook(get_activation('self_attention'))
 
-# Train the model
-print("\nStarting training...")
-train_result = trainer.train()
 
-# Print training results
-print("\nTraining completed!")
-print(f"Training time: {train_result.metrics['train_runtime']:.2f} seconds")
-print(f"Training loss: {train_result.metrics['train_loss']:.4f}")
+def train():
+    # Train the model
+    print("\nStarting training...")
+    train_result = trainer.train()
 
+    # Print training results
+    print("\nTraining completed!")
+    print(f"Training time: {train_result.metrics['train_runtime']:.2f} seconds")
+    print(f"Training loss: {train_result.metrics['train_loss']:.4f}")
+
+train()
 
 
 
 # Evaluate on test set
 print("\nEvaluating on test set...")
-test_results = trainer.evaluate(tokenized_datasets["test"])
+print(tokenized_datasets['test'])
+
+
+test_results = trainer.evaluate(tokenized_datasets['test'])
 print("Test results:")
 for metric_name, value in test_results.items():
     print(f"  {metric_name}: {value:.4f}")
@@ -259,7 +299,7 @@ for i, example in enumerate(dataset_splits["test"]):
     input_ids = tokenizer(input_text, return_tensors="pt").input_ids.to(model.device)
     outputs = model.generate(
         input_ids, 
-        max_length=512,
+        max_length=1024,
         num_beams=5,
         early_stopping=True
     )
@@ -284,6 +324,7 @@ for i, example in enumerate(dataset_splits["test"]):
                 "field_errors": field_errors
             })
     except json.JSONDecodeError:
+        expected_json = json.loads(expected_output)
         errors.append({
             "input": example["input"],
             "predicted": predicted_text,
@@ -324,7 +365,7 @@ def sentence_to_task_json(sentence, model, tokenizer):
     # Generate with detailed settings
     outputs = model.generate(
         input_ids,
-        max_length=512,
+        max_length=1024,
         num_beams=5,
         early_stopping=True,
         no_repeat_ngram_size=3,
@@ -366,7 +407,7 @@ for sentence in test_sentences:
     else:
         print("Failed to convert to valid JSON")
 
-def sentence_to_task_json(sentence, model, tokenizer, schema_model=Task):
+def sentence_to_task_json(sentence, model, tokenizer):
     # Prepare input
     input_text = "convert to json: " + sentence
     input_ids = tokenizer(input_text, return_tensors="pt").input_ids.to(model.device)
@@ -374,7 +415,7 @@ def sentence_to_task_json(sentence, model, tokenizer, schema_model=Task):
     # Generate output
     outputs = model.generate(
         input_ids,
-        max_length=512,
+        max_length=1024,
         num_beams=5,
         early_stopping=True
     )
@@ -383,3 +424,4 @@ def sentence_to_task_json(sentence, model, tokenizer, schema_model=Task):
     json_string = tokenizer.decode(outputs[0], skip_special_tokens=True)
     
     return json_string
+
