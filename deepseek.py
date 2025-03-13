@@ -2,9 +2,12 @@
 
 import json
 from openai import OpenAI
-import os
+from dotenv import load_dotenv
+import os   
 
-api_key = os.environ.get("deepseek_key")
+load_dotenv()
+
+api_key = os.environ.get("deepseek-key")
 
 client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
 
@@ -80,6 +83,37 @@ Please limit the number of options to 5.
 
 """
 
+
+data_gen_prompt = """
+
+Your job is to generate sentences on how a user might create a To-do list item in natural language
+Please occasionally reference things like "deadlines" "priority" and some sort of frequency 
+
+Some examples include: 
+
+Go to the gym every weekend
+Play frisbee
+Get dinner 
+Go have lunch with John 
+Walk the dogs every night
+Brush my teeth 
+Respond to my emails 
+Take out the trash
+Cold-email 4 Executives
+Check in with mom 
+
+Visit the bakery after work 
+Do laundry before 9PM 
+Jog for 1 mile every weekday 
+Go to a restaurant every friday night 
+Watch an episode of Anime on Thursdays
+Relax every weekend
+Pay my rent on the first of every month 
+Change the air filter every 3 months
+
+
+Every sentence should be seperated with a ||| 
+"""
 def create_task(task=None):
   if task is None:
     task = input("Please provide a task: ")
@@ -116,8 +150,21 @@ def create_goal():
   # return ret
   return response.choices[0].message.content
 
-goals = json.loads(create_goal())
-print(goals.keys())
-for task in goals["tasks"]:
-  print(task.keys())
-  print(create_task(task["sentence"]))
+# goals = json.loads(create_goal())
+# print(goals.keys())
+# for task in goals["tasks"]:
+#   print(task.keys())
+#   print(create_task(task["sentence"]))
+
+
+def generate_task_data():
+    response = client.chat.completions.create(
+      model="deepseek-chat",
+      messages=[
+          {"role": "system", "content": system_prompt},
+          {"role": "user", "content": "Please generate 100 sentences of To do list items."},
+      ],
+      stream=False)
+    return response.choices[0].message.content
+
+print(generate_task_data())
