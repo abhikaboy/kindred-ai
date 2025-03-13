@@ -1,0 +1,175 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Plan the holiday decorations",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-12-01",
+      "notes": "Consider themes, colors, and where to purchase decorations.",
+      "checklist": [
+        "Decide on a theme",
+        "Choose color scheme",
+        "Make a list of needed decorations",
+        "Set a budget",
+        "Purchase decorations"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the gym every Tuesday and Thursday",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, true, false, true, false, false, false],
+        "nextDate": "2025-03-11"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Focus on cardio and strength training.",
+      "checklist": [
+        "Pack gym bag",
+        "Choose workout plan",
+        "Stay hydrated",
+        "Track progress"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the presentation by next week",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Ensure all data is accurate and slides are visually appealing.",
+      "checklist": [
+        "Gather all necessary information",
+        "Create outline",
+        "Design slides",
+        "Rehearse presentation",
+        "Get feedback"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice Spanish for 15 minutes daily",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Use a language learning app or practice with a friend.",
+      "checklist": [
+        "Choose learning material",
+        "Set daily reminder",
+        "Track progress",
+        "Practice speaking"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new pair of earbuds",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "notes": "Research brands and read reviews before purchasing.",
+      "checklist": [
+        "Determine budget",
+        "Research options",
+        "Read reviews",
+        "Purchase earbuds"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take the trash out every morning",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Ensure all trash bags are securely tied.",
+      "checklist": [
+        "Check all trash bins",
+        "Tie trash bags",
+        "Take trash to curb"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the online certification by next month",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10",
+      "notes": "Allocate specific times for studying and completing assignments.",
+      "checklist": [
+        "Review course material",
+        "Complete assignments",
+        "Take practice exams",
+        "Schedule final exam"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go for a bike ride this weekend",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startDay": "2025-03-15",
+      "notes": "Check the weather forecast and plan the route in advance.",
+      "checklist": [
+        "Check bike condition",
+        "Plan route",
+        "Check weather",
+        "Pack essentials"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Call the doctor for the test results",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "notes": "Prepare any questions you have for the doctor.",
+      "checklist": [
+        "Find doctor's contact information",
+        "Prepare questions",
+        "Call doctor",
+        "Take notes"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Write the monthly newsletter by the 20th",
+      "difficulty": 3,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "deadline": "2025-03-20",
+      "notes": "Include updates, upcoming events, and member highlights.",
+      "checklist": [
+        "Gather content",
+        "Write draft",
+        "Edit and proofread",
+        "Send newsletter"
+      ]
+    }
+  ]
+}

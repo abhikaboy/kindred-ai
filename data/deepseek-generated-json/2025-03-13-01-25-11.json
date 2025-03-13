@@ -1,0 +1,181 @@
+{
+  "tasks": [
+    {
+      "priority": 1,
+      "content": "Finish the report",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-11T23:59",
+      "notes": "Ensure all sections are completed and reviewed.",
+      "checklist": [
+        "Gather all necessary data",
+        "Write the introduction",
+        "Complete the analysis section",
+        "Write the conclusion",
+        "Review and edit the report"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice meditation",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "19:00",
+      "notes": "Focus on breathing and mindfulness.",
+      "checklist": [
+        "Find a quiet space",
+        "Set a timer for 15 minutes",
+        "Sit comfortably",
+        "Close your eyes and focus on your breath"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new laptop bag",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "notes": "Look for a durable and stylish option.",
+      "checklist": [
+        "Research online for options",
+        "Check reviews",
+        "Visit stores to see options in person",
+        "Make a purchase"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take the dog to the vet",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "notes": "Check for any required vaccinations.",
+      "checklist": [
+        "Call the vet to schedule an appointment",
+        "Prepare the dog's medical records",
+        "Transport the dog to the vet",
+        "Discuss any concerns with the vet"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the park",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-16"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Enjoy some outdoor time and relaxation.",
+      "checklist": [
+        "Pack a picnic",
+        "Bring a book or music",
+        "Wear comfortable shoes",
+        "Apply sunscreen"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Submit the proposal",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "notes": "Ensure all sections are completed and reviewed.",
+      "checklist": [
+        "Finalize the proposal content",
+        "Review with team",
+        "Make necessary revisions",
+        "Submit before deadline"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the carpets",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 3,
+        "nextDate": "2025-06-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Consider hiring a professional service.",
+      "checklist": [
+        "Schedule a cleaning date",
+        "Move furniture if necessary",
+        "Vacuum before cleaning",
+        "Ensure carpets are dry before use"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Attend the workshop",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "11:00",
+      "deadline": "2025-03-10T11:00",
+      "notes": "Take notes and network with attendees.",
+      "checklist": [
+        "Prepare questions to ask",
+        "Bring a notebook and pen",
+        "Arrive early to find a good seat",
+        "Engage with the speaker and participants"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Plan the holiday decorations",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "notes": "Consider a theme and budget.",
+      "checklist": [
+        "Decide on a theme",
+        "Create a budget",
+        "Shop for decorations",
+        "Plan the layout"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the gym",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, true, false, true, false, false, false],
+        "nextDate": "2025-03-11"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Focus on a balanced workout routine.",
+      "checklist": [
+        "Pack gym clothes and shoes",
+        "Plan your workout routine",
+        "Stay hydrated",
+        "Track your progress"
+      ]
+    }
+  ]
+}

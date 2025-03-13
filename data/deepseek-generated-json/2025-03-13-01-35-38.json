@@ -1,0 +1,113 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Go to the park",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-16"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 1,
+      "content": "Submit the proposal",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59"
+    },
+    {
+      "priority": 3,
+      "content": "Clean the carpets",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 3,
+        "nextDate": "2025-06-10"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 2,
+      "content": "Attend the workshop",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "12:00"
+    },
+    {
+      "priority": 3,
+      "content": "Plan the holiday decorations",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 2,
+      "content": "Go to the gym",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, true, false, true, false, false, false],
+        "nextDate": "2025-03-11"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 1,
+      "content": "Finish the presentation",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Practice Spanish for 15 minutes",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new pair of earbuds",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 2,
+      "content": "Take the trash out",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "07:00"
+    }
+  ]
+}

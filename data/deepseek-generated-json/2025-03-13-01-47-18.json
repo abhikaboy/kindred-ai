@@ -1,0 +1,187 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Clean the attic",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 6,
+        "nextDate": "2025-09-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Ensure to sort items into keep, donate, and discard piles.",
+      "checklist": [
+        "Gather cleaning supplies",
+        "Sort items into categories",
+        "Clean surfaces",
+        "Organize kept items",
+        "Dispose of unwanted items"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Meet with the client",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "13:00",
+      "notes": "Prepare the presentation and review client's requirements.",
+      "checklist": [
+        "Review meeting agenda",
+        "Prepare presentation",
+        "Check technology setup",
+        "Confirm meeting time with client"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Plan the weekend getaway",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-14T23:59",
+      "notes": "Research destinations, accommodations, and activities.",
+      "checklist": [
+        "Choose destination",
+        "Book accommodations",
+        "Plan activities",
+        "Pack essentials"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the dentist",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "YEAR",
+        "every": 1,
+        "nextDate": "2026-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Schedule an appointment for a check-up and cleaning.",
+      "checklist": [
+        "Call to schedule appointment",
+        "Prepare any necessary dental records",
+        "Brush and floss before the appointment"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Buy groceries for the month",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Make a list of essentials and check for any sales.",
+      "checklist": [
+        "Make a grocery list",
+        "Check pantry for needed items",
+        "Look for coupons or sales",
+        "Go to the grocery store"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the DIY project",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16T23:59",
+      "notes": "Ensure all materials are ready and allocate time each day to work on the project.",
+      "checklist": [
+        "Gather all necessary materials",
+        "Allocate daily time slots for the project",
+        "Follow the project plan",
+        "Finalize and clean up"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Take a walk after dinner",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "19:00",
+      "notes": "Aim for at least 30 minutes to aid digestion and relaxation.",
+      "checklist": [
+        "Wear comfortable shoes",
+        "Choose a safe and pleasant route",
+        "Set a timer for 30 minutes",
+        "Enjoy the walk"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Call the credit card company",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-12T23:59",
+      "notes": "Discuss any issues or inquire about services.",
+      "checklist": [
+        "Prepare account information",
+        "List down questions or issues",
+        "Call the customer service number",
+        "Take notes during the call"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Organize the pantry",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Sort items by category and check expiration dates.",
+      "checklist": [
+        "Empty the pantry",
+        "Sort items into categories",
+        "Check expiration dates",
+        "Clean shelves",
+        "Reorganize items"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Watch a documentary",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "20:00",
+      "deadline": "2025-03-10T23:59",
+      "notes": "Choose a documentary that interests you and prepare some snacks.",
+      "checklist": [
+        "Select a documentary",
+        "Prepare snacks",
+        "Ensure comfortable seating",
+        "Watch and enjoy"
+      ]
+    }
+  ]
+}

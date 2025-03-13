@@ -1,0 +1,186 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Clean the bathroom",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "20:00",
+      "deadline": "2025-03-10T23:59",
+      "notes": "Ensure to clean all surfaces and replace towels.",
+      "checklist": [
+        "Gather cleaning supplies",
+        "Wipe down surfaces",
+        "Clean the toilet",
+        "Mop the floor",
+        "Replace towels"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Call the repairman for the dishwasher",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-12T23:59",
+      "notes": "Check warranty before calling.",
+      "checklist": [
+        "Find repairman contact information",
+        "Schedule an appointment",
+        "Prepare dishwasher for inspection"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Write the article",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-13T23:59",
+      "notes": "Research topic thoroughly before writing.",
+      "checklist": [
+        "Outline the article",
+        "Conduct research",
+        "Write the first draft",
+        "Revise and edit",
+        "Submit the article"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Pay the mortgage",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-01"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Ensure sufficient funds are available.",
+      "checklist": [
+        "Check bank account balance",
+        "Schedule payment",
+        "Confirm payment receipt"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the bakery",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "08:00",
+      "notes": "Pick up fresh bread for the day.",
+      "checklist": [
+        "Check bakery opening hours",
+        "Prepare a shopping list",
+        "Visit the bakery"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the report",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-14T23:59",
+      "notes": "Include all necessary data and analysis.",
+      "checklist": [
+        "Compile data",
+        "Analyze findings",
+        "Write report",
+        "Review and edit",
+        "Submit report"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice yoga",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "07:00",
+      "notes": "Focus on breathing and flexibility.",
+      "checklist": [
+        "Set up yoga mat",
+        "Choose a yoga routine",
+        "Practice for 30 minutes",
+        "Cool down and stretch"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new backpack",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "notes": "Look for durability and comfort.",
+      "checklist": [
+        "Research backpack options",
+        "Compare prices and features",
+        "Purchase the backpack"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take the dog to the groomer",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "notes": "Ensure the dog is comfortable and safe.",
+      "checklist": [
+        "Find a reputable groomer",
+        "Schedule an appointment",
+        "Prepare the dog for grooming"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the park",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-15"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "10:00",
+      "notes": "Enjoy the outdoors and relax.",
+      "checklist": [
+        "Pack a picnic",
+        "Bring a book or music",
+        "Enjoy the park"
+      ]
+    }
+  ]
+}

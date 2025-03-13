@@ -1,0 +1,174 @@
+{
+  "tasks": [
+    {
+      "priority": 3,
+      "content": "Watch a comedy show tonight",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-10T23:59",
+      "startTime": "20:00",
+      "notes": "Ensure to choose a show that relaxes you.",
+      "checklist": [
+          "Choose a comedy show",
+          "Prepare snacks",
+          "Set up viewing area"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Pay the credit card bill by the due date",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-15T23:59",
+      "notes": "Check the exact due date on the credit card statement.",
+      "checklist": [
+          "Check credit card statement",
+          "Set up payment",
+          "Confirm payment"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the yoga class at 7 PM",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+          "frequency": "WEEK",
+          "days": [false, false, false, false, false, true, false],
+          "nextDate": "2025-03-14"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "19:00",
+      "notes": "Bring your yoga mat and water bottle.",
+      "checklist": [
+          "Prepare yoga mat",
+          "Fill water bottle",
+          "Wear comfortable clothes"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the attic this weekend",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16T23:59",
+      "notes": "Consider donating items you no longer need.",
+      "checklist": [
+          "Sort items into keep, donate, and discard piles",
+          "Clean surfaces",
+          "Organize kept items"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Write the annual report by the 31st",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-31T23:59",
+      "notes": "Start with an outline to organize your thoughts.",
+      "checklist": [
+          "Gather necessary data",
+          "Create report outline",
+          "Write draft",
+          "Review and finalize report"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice piano for an hour every day",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+          "frequency": "DAY",
+          "every": 1,
+          "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Focus on pieces that challenge you.",
+      "checklist": [
+          "Set a timer for one hour",
+          "Warm up with scales",
+          "Practice challenging pieces",
+          "Cool down with a favorite piece"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Buy a gift for the graduation",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-06-01T23:59",
+      "notes": "Consider the graduate's interests when choosing a gift.",
+      "checklist": [
+          "Determine budget",
+          "Choose a gift",
+          "Purchase gift",
+          "Wrap gift"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take the car for maintenance next week",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "notes": "Check the car's manual for recommended maintenance.",
+      "checklist": [
+          "Schedule maintenance appointment",
+          "Prepare car for maintenance",
+          "Drop off car",
+          "Pick up car"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the lake every summer",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+          "frequency": "YEAR",
+          "every": 1,
+          "nextDate": "2025-06-21"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Plan activities and accommodations in advance.",
+      "checklist": [
+          "Choose dates",
+          "Book accommodations",
+          "Plan activities",
+          "Pack necessary items"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Finish the book club reading by next week",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "notes": "Take notes on key points for discussion.",
+      "checklist": [
+          "Set reading goals",
+          "Read daily",
+          "Take notes",
+          "Prepare discussion points"
+      ]
+    }
+  ]
+}

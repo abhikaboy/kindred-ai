@@ -1,0 +1,182 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Take the car for an oil change",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Ensure to check for any additional services needed.",
+      "checklist": [
+        "Check car's service manual for oil type",
+        "Find a reputable service center",
+        "Schedule an appointment",
+        "Prepare payment method"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the mountains every winter",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "YEAR",
+        "every": 1,
+        "nextDate": "2025-12-01"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Plan for accommodations and activities.",
+      "checklist": [
+        "Check weather conditions",
+        "Book accommodations",
+        "Plan activities",
+        "Prepare necessary gear"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Finish the book club reading",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10",
+      "notes": "Engage with the material to contribute to discussions.",
+      "checklist": [
+        "Set a reading schedule",
+        "Take notes on key points",
+        "Prepare discussion questions",
+        "Attend the book club meeting"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Call the vet for the cat’s checkup",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Ensure to mention any recent changes in behavior.",
+      "checklist": [
+        "Find the vet's contact information",
+        "Schedule an appointment",
+        "Prepare a list of concerns",
+        "Confirm the appointment a day before"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the patio every month",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Check for any repairs needed.",
+      "checklist": [
+        "Remove furniture and decorations",
+        "Sweep and wash the surface",
+        "Check for and repair any damages",
+        "Rearrange furniture and decorations"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Attend the seminar at 9 AM",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "09:00",
+      "deadline": "2025-03-10T09:00",
+      "notes": "Prepare questions or topics for discussion.",
+      "checklist": [
+        "Confirm the seminar location",
+        "Prepare necessary materials",
+        "Set an alarm",
+        "Arrive early"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Plan the baby shower for next month",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10",
+      "notes": "Coordinate with family and friends for a memorable event.",
+      "checklist": [
+        "Decide on a theme",
+        "Create a guest list",
+        "Choose a venue",
+        "Plan the menu",
+        "Send out invitations"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the library every Sunday",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-16"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Explore new books and resources.",
+      "checklist": [
+        "Prepare a list of books to look for",
+        "Check library hours",
+        "Bring library card",
+        "Allocate time for reading"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Submit the scholarship application by the deadline",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-31",
+      "notes": "Ensure all required documents are prepared and accurate.",
+      "checklist": [
+        "Review application requirements",
+        "Gather necessary documents",
+        "Write and revise essays",
+        "Submit application before deadline"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice violin for 30 minutes daily",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Focus on areas needing improvement.",
+      "checklist": [
+        "Set a specific time for practice",
+        "Warm up with scales",
+        "Work on challenging pieces",
+        "Review progress weekly"
+      ]
+    }
+  ]
+}

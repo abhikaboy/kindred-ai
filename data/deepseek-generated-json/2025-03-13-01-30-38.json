@@ -1,0 +1,182 @@
+{
+  "tasks": [
+    {
+      "priority": 1,
+      "content": "Write the article",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-13T23:59",
+      "notes": "Ensure to include all required sections and references.",
+      "checklist": [
+        "Research topic",
+        "Outline article structure",
+        "Write introduction",
+        "Develop main content",
+        "Conclude article",
+        "Proofread and edit"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Pay the mortgage",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-01"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Ensure sufficient funds are available in the account.",
+      "checklist": [
+        "Check bank account balance",
+        "Set up payment reminder",
+        "Make payment"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the bakery every morning",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-11"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "08:00",
+      "notes": "Try different pastries each day.",
+      "checklist": [
+        "Check bakery opening hours",
+        "Decide what to buy",
+        "Go to the bakery"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the report",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-14T23:59",
+      "notes": "Include all data analysis and conclusions.",
+      "checklist": [
+        "Compile data",
+        "Analyze data",
+        "Write findings",
+        "Review report",
+        "Submit report"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice yoga every morning",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-11"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "07:00",
+      "notes": "Focus on breathing and flexibility.",
+      "checklist": [
+        "Set up yoga mat",
+        "Choose yoga routine",
+        "Practice yoga"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new backpack",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "notes": "Look for a durable and comfortable backpack.",
+      "checklist": [
+        "Research backpack options",
+        "Compare prices",
+        "Purchase backpack"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take the dog to the groomer",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "notes": "Ensure the dog is comfortable and safe.",
+      "checklist": [
+        "Find a reputable groomer",
+        "Schedule appointment",
+        "Take dog to groomer"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the park every Saturday",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, true, false],
+        "nextDate": "2025-03-15"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "10:00",
+      "notes": "Enjoy nature and relax.",
+      "checklist": [
+        "Prepare picnic",
+        "Pack essentials",
+        "Go to the park"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Submit the grant proposal",
+      "difficulty": 5,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "notes": "Ensure all requirements are met and documents are complete.",
+      "checklist": [
+        "Review grant requirements",
+        "Complete proposal document",
+        "Gather necessary attachments",
+        "Submit proposal"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the rugs",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 3,
+        "nextDate": "2025-06-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Use appropriate cleaning products for rug material.",
+      "checklist": [
+        "Vacuum rugs",
+        "Apply cleaning solution",
+        "Rinse and dry rugs"
+      ]
+    }
+  ]
+}

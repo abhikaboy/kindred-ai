@@ -1,0 +1,187 @@
+{
+  "tasks": [
+    {
+      "priority": 1,
+      "content": "Finish the painting project",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16",
+      "notes": "Ensure all materials are ready before starting.",
+      "checklist": [
+        "Gather all painting materials",
+        "Prepare the surface for painting",
+        "Apply primer if necessary",
+        "Start painting",
+        "Allow paint to dry",
+        "Apply second coat if needed",
+        "Clean up workspace"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take a walk after lunch",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "13:00",
+      "notes": "Aim for at least a 15-minute walk.",
+      "checklist": [
+        "Finish lunch",
+        "Put on walking shoes",
+        "Start walking",
+        "Return home"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Call the bank to update details",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Have all necessary documents ready before calling.",
+      "checklist": [
+        "Gather necessary documents",
+        "Find bank's customer service number",
+        "Call the bank",
+        "Update details as required"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Organize the desk",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, true, false, false],
+        "nextDate": "2025-03-14"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Ensure all items are properly sorted and stored.",
+      "checklist": [
+        "Clear desk surface",
+        "Sort items into categories",
+        "Dispose of unnecessary items",
+        "Organize remaining items",
+        "Clean desk surface"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Watch a movie tonight",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "20:00",
+      "notes": "Choose a movie that everyone will enjoy.",
+      "checklist": [
+        "Select a movie",
+        "Prepare snacks",
+        "Set up viewing area",
+        "Start movie"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Pay the credit card bill",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-25",
+      "notes": "Ensure payment is made before the due date to avoid late fees.",
+      "checklist": [
+        "Check bill amount",
+        "Choose payment method",
+        "Make payment",
+        "Confirm payment receipt"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the yoga class",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "18:00",
+      "deadline": "2025-03-10T18:00",
+      "notes": "Bring a yoga mat and water bottle.",
+      "checklist": [
+        "Prepare yoga mat",
+        "Fill water bottle",
+        "Dress appropriately",
+        "Leave for class"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Clean the garage",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16",
+      "notes": "Sort items into keep, donate, and discard piles.",
+      "checklist": [
+        "Remove all items from garage",
+        "Sort items",
+        "Clean garage floor and walls",
+        "Organize items to keep",
+        "Dispose of unwanted items"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Write the monthly report",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-25",
+      "notes": "Include all relevant data and analysis.",
+      "checklist": [
+        "Gather all necessary data",
+        "Outline report structure",
+        "Write introduction",
+        "Analyze data",
+        "Write conclusion",
+        "Review and edit report"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice coding for an hour",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "19:00",
+      "notes": "Focus on a specific programming language or problem.",
+      "checklist": [
+        "Choose a coding project or problem",
+        "Set up coding environment",
+        "Start coding",
+        "Take short breaks as needed",
+        "Review and debug code"
+      ]
+    }
+  ]
+}

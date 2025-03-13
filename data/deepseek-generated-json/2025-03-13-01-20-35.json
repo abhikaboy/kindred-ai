@@ -1,0 +1,188 @@
+{
+  "tasks": [
+    {
+      "priority": 1,
+      "content": "Prepare for the interview",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-11T23:59",
+      "notes": "Ensure to review common interview questions and company background.",
+      "checklist": [
+        "Research the company",
+        "Review job description",
+        "Prepare answers for common interview questions",
+        "Choose appropriate attire",
+        "Prepare questions to ask the interviewer"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Write in the journal",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "21:00",
+      "notes": "Reflect on the day's events and feelings.",
+      "checklist": [
+        "Find a quiet place",
+        "Write down three things you're grateful for",
+        "Reflect on what went well today",
+        "Note any challenges and how you overcame them"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Pay the internet bill",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-20T23:59",
+      "notes": "Ensure to check for any discounts or promotions.",
+      "checklist": [
+        "Log in to the internet provider's website",
+        "Check the bill amount",
+        "Choose payment method",
+        "Complete the payment"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the bathroom",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, true, false, false],
+        "nextDate": "2025-03-14"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Focus on high-touch areas and ensure proper ventilation.",
+      "checklist": [
+        "Gather cleaning supplies",
+        "Clean the toilet",
+        "Scrub the sink and counter",
+        "Mop the floor",
+        "Dispose of trash"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Attend the webinar",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "15:00",
+      "notes": "Prepare any questions you have in advance.",
+      "checklist": [
+        "Check webinar link and login details",
+        "Test your internet connection",
+        "Prepare a notebook for notes",
+        "Join the webinar 5 minutes early"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Plan the family dinner",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16T23:59",
+      "notes": "Consider dietary restrictions and preferences.",
+      "checklist": [
+        "Decide on a menu",
+        "Create a shopping list",
+        "Assign tasks to family members",
+        "Confirm attendance",
+        "Prepare the meal"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the gym",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [true, false, false, true, false, false, false],
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Focus on both cardio and strength training.",
+      "checklist": [
+        "Pack gym bag",
+        "Choose workout plan",
+        "Warm-up",
+        "Complete workout",
+        "Cool down and stretch"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Submit the expense report",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "notes": "Ensure all receipts are attached and categorized correctly.",
+      "checklist": [
+        "Gather all receipts",
+        "Categorize expenses",
+        "Fill out the expense report form",
+        "Review for accuracy",
+        "Submit before deadline"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice mindfulness",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "07:00",
+      "notes": "Find a quiet space and focus on your breathing.",
+      "checklist": [
+        "Find a quiet place",
+        "Set a timer for 10 minutes",
+        "Focus on your breathing",
+        "Acknowledge thoughts without judgment",
+        "Gently return focus to breathing"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new pair of shoes",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "notes": "Consider comfort, style, and budget.",
+      "checklist": [
+        "Determine budget",
+        "Decide on style and color",
+        "Research stores or online options",
+        "Try on shoes for fit",
+        "Make purchase"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Call the vet for the rabbit’s checkup",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Ensure to have the rabbit's medical history ready.",
+      "checklist": [
+        "Find the vet's contact information",
+        "Schedule an appointment",
+        "Prepare any necessary documents"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the deck every month",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Check for any cleaning supplies needed beforehand.",
+      "checklist": [
+        "Sweep the deck",
+        "Wash the deck",
+        "Inspect for any repairs needed"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Attend the conference at 7 AM",
+      "difficulty": 1,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "startTime": "07:00",
+      "deadline": "2025-03-10T07:00",
+      "notes": "Prepare any materials or presentations needed.",
+      "checklist": [
+        "Confirm the conference location",
+        "Prepare any necessary materials",
+        "Set an alarm"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Plan the anniversary celebration for next month",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10",
+      "notes": "Consider venue, guest list, and catering options.",
+      "checklist": [
+        "Decide on a venue",
+        "Create a guest list",
+        "Choose a catering service"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the library every Saturday",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, true, false],
+        "nextDate": "2025-03-15"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Prepare a list of books or materials needed.",
+      "checklist": [
+        "Check library hours",
+        "Prepare a list of books",
+        "Pack library card"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Submit the application by the deadline",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Double-check the application for any errors.",
+      "checklist": [
+        "Complete all sections of the application",
+        "Review for errors",
+        "Submit before the deadline"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice cello for 30 minutes daily",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Focus on challenging pieces to improve skills.",
+      "checklist": [
+        "Set a timer for 30 minutes",
+        "Choose a piece to practice",
+        "Review progress"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new umbrella",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Consider size, color, and durability.",
+      "checklist": [
+        "Research options",
+        "Compare prices",
+        "Make a purchase"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Take the kids to the playground every weekend",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, true, true],
+        "nextDate": "2025-03-15"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Check the weather forecast beforehand.",
+      "checklist": [
+        "Pack snacks and water",
+        "Prepare outdoor games",
+        "Check playground safety"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the assignment by next week",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Allocate specific times for work to ensure completion.",
+      "checklist": [
+        "Review assignment requirements",
+        "Create a work schedule",
+        "Submit before the deadline"
+      ]
+    }
+  ]
+}

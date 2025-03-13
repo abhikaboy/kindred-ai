@@ -1,0 +1,188 @@
+{
+  "tasks": [
+    {
+      "priority": 1,
+      "content": "Finish the presentation",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Ensure all slides are completed and reviewed.",
+      "checklist": [
+        "Outline presentation structure",
+        "Create slides for each section",
+        "Add visuals and data",
+        "Review and edit slides",
+        "Practice presentation"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice French for 15 minutes",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Use a language learning app or flashcards.",
+      "checklist": [
+        "Choose a learning resource",
+        "Set a daily reminder",
+        "Practice vocabulary",
+        "Practice pronunciation",
+        "Review progress weekly"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Buy a new pair of headphones",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Research and compare options before purchasing.",
+      "checklist": [
+        "Determine budget",
+        "Research brands and models",
+        "Read reviews",
+        "Compare prices",
+        "Make purchase"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Take the trash out",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Ensure trash is taken out before leaving for work.",
+      "checklist": [
+        "Check trash bins",
+        "Take out trash",
+        "Replace trash bags"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Finish the online certification",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10",
+      "notes": "Allocate time daily to complete modules.",
+      "checklist": [
+        "Review course outline",
+        "Complete one module per day",
+        "Take notes",
+        "Complete all quizzes",
+        "Submit final project"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go for a bike ride",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16",
+      "notes": "Plan a route and check the weather.",
+      "checklist": [
+        "Check bike condition",
+        "Plan route",
+        "Check weather",
+        "Prepare water and snacks",
+        "Go for the ride"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Call the doctor for the test results",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-11",
+      "notes": "Prepare any questions for the doctor.",
+      "checklist": [
+        "Find doctor's contact information",
+        "Prepare questions",
+        "Call the doctor",
+        "Take notes during the call"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Write the monthly newsletter",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-03-20"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Include updates, tips, and upcoming events.",
+      "checklist": [
+        "Gather content",
+        "Write draft",
+        "Review and edit",
+        "Add visuals",
+        "Send to subscribers"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the attic",
+      "difficulty": 4,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 6,
+        "nextDate": "2025-09-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Sort items to keep, donate, or discard.",
+      "checklist": [
+        "Prepare cleaning supplies",
+        "Sort items",
+        "Clean surfaces",
+        "Organize items to keep",
+        "Dispose of unwanted items"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Meet with the client",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startDay": "2025-03-10",
+      "startTime": "13:00",
+      "notes": "Prepare the agenda and necessary documents.",
+      "checklist": [
+        "Prepare agenda",
+        "Gather necessary documents",
+        "Review client's background",
+        "Confirm meeting time",
+        "Attend meeting"
+      ]
+    }
+  ]
+}

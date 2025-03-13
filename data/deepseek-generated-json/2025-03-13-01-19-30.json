@@ -1,0 +1,176 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Meet with the accountant at 2 PM",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "14:00",
+      "deadline": "2025-03-10T14:00",
+      "notes": "Ensure to prepare all necessary documents beforehand.",
+      "checklist": [
+        "Prepare financial documents",
+        "Confirm meeting time with accountant",
+        "Review last meeting's notes"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Update the website content by Friday",
+      "difficulty": 3,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "deadline": "2025-03-14T23:59",
+      "notes": "Check for any new updates or changes required on the website.",
+      "checklist": [
+        "Review current website content",
+        "Identify areas needing updates",
+        "Draft new content",
+        "Get approval for new content",
+        "Implement updates on the website"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to bed by 11 PM every night",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "23:00",
+      "notes": "Ensure to wind down activities by 10:30 PM to prepare for bed.",
+      "checklist": [
+        "Turn off electronic devices by 10:30 PM",
+        "Prepare for bed",
+        "Set alarm for the next morning"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Buy a new notebook for work",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-12T23:59",
+      "notes": "Consider the specifications needed for work purposes.",
+      "checklist": [
+        "Determine required specifications",
+        "Research available options",
+        "Purchase the notebook"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Take a break every hour while working",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "HOUR",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Use breaks to stretch or rest eyes to prevent fatigue.",
+      "checklist": [
+        "Set a timer for 50 minutes of work",
+        "Take a 10-minute break",
+        "Stretch or walk around during the break"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Visit the museum this weekend",
+      "difficulty": 2,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "deadline": "2025-03-16T23:59",
+      "notes": "Check the museum's schedule and any special exhibits.",
+      "checklist": [
+        "Check museum opening hours",
+        "Plan transportation",
+        "Purchase tickets if necessary"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Finish the book by next week",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "notes": "Allocate specific times each day for reading.",
+      "checklist": [
+        "Set daily reading goals",
+        "Track progress",
+        "Review key points"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Do laundry every Sunday",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-16"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Sort clothes by color and fabric type before washing.",
+      "checklist": [
+        "Sort laundry",
+        "Start washing machine",
+        "Dry clothes",
+        "Fold and put away clothes"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Call the plumber to fix the sink",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-12T23:59",
+      "notes": "Describe the issue clearly to the plumber for an accurate quote.",
+      "checklist": [
+        "Identify the issue with the sink",
+        "Research local plumbers",
+        "Call and schedule an appointment"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the park every afternoon",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": true,
+      "active": true,
+      "startTime": "15:00",
+      "notes": "Use this time for relaxation or light exercise.",
+      "checklist": [
+        "Prepare for outdoor activity",
+        "Walk or jog in the park",
+        "Return home"
+      ]
+    }
+  ]
+}

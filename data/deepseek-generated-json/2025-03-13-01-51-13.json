@@ -1,0 +1,172 @@
+{
+  "tasks": [
+    {
+      "priority": 1,
+      "content": "Submit the grant proposal",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Ensure all sections are completed and reviewed.",
+      "checklist": [
+        "Draft proposal",
+        "Review with team",
+        "Finalize budget",
+        "Submit before deadline"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the rugs",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 3,
+        "nextDate": "2025-06-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Schedule professional cleaning or do it yourself.",
+      "checklist": [
+        "Check rug condition",
+        "Choose cleaning method",
+        "Schedule cleaning"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Attend the lecture",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "10:00",
+      "notes": "Prepare questions or topics to discuss.",
+      "checklist": [
+        "Check location",
+        "Prepare materials",
+        "Arrive on time"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Plan the holiday party",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "notes": "Start with venue and date, then move to details.",
+      "checklist": [
+        "Choose date and venue",
+        "Send invitations",
+        "Plan menu",
+        "Organize entertainment"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the gym",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [true, false, true, false, false, false, false],
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Focus on both cardio and strength training.",
+      "checklist": [
+        "Prepare gym bag",
+        "Plan workout routine",
+        "Stay hydrated"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the presentation",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-14",
+      "notes": "Ensure all data is accurate and presentation is engaging.",
+      "checklist": [
+        "Gather all necessary data",
+        "Create slides",
+        "Practice delivery",
+        "Incorporate feedback"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Practice Italian",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Use a language learning app or practice with a friend.",
+      "checklist": [
+        "Set daily reminder",
+        "Choose learning material",
+        "Practice speaking"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new pair of sunglasses",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "notes": "Consider UV protection and style.",
+      "checklist": [
+        "Research brands",
+        "Check reviews",
+        "Purchase"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Take the trash out",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Ensure all trash bins are checked.",
+      "checklist": [
+        "Check all bins",
+        "Take out trash",
+        "Replace bags"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Finish the online course",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-06-10",
+      "notes": "Allocate specific times for study to ensure completion.",
+      "checklist": [
+        "Review course syllabus",
+        "Set weekly goals",
+        "Complete assignments",
+        "Prepare for final assessment"
+      ]
+    }
+  ]
+}

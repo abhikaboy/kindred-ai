@@ -1,0 +1,190 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Clean the basement this weekend",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16T23:59",
+      "startDay": "2025-03-15",
+      "notes": "Ensure to organize items into keep, donate, and discard piles.",
+      "checklist": [
+        "Gather cleaning supplies",
+        "Sort items into categories",
+        "Clean floors and surfaces",
+        "Dispose of unwanted items",
+        "Organize remaining items"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Write the quarterly report by the 30th",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-30T23:59",
+      "notes": "Include financial summaries, project updates, and forecasts.",
+      "checklist": [
+        "Gather necessary data",
+        "Outline report structure",
+        "Draft financial summaries",
+        "Draft project updates",
+        "Draft forecasts",
+        "Review and edit report",
+        "Submit report"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice guitar for an hour every day",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Focus on scales, chords, and a new song each week.",
+      "checklist": [
+        "Set up practice space",
+        "Warm up with scales",
+        "Practice chords",
+        "Learn a new song",
+        "Review progress"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Buy a gift for the wedding",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-20T23:59",
+      "notes": "Consider the couple's registry or personal preferences.",
+      "checklist": [
+        "Determine budget",
+        "Choose gift",
+        "Purchase gift",
+        "Wrap gift",
+        "Deliver gift"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take the car for an oil change next week",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "notes": "Check for any other maintenance needs while at the service center.",
+      "checklist": [
+        "Schedule appointment",
+        "Drive to service center",
+        "Request oil change",
+        "Check for additional maintenance",
+        "Pay and leave"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the mountains every winter",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "YEAR",
+        "every": 1,
+        "nextDate": "2025-12-01"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Plan for accommodations and activities in advance.",
+      "checklist": [
+        "Choose destination",
+        "Book accommodations",
+        "Plan activities",
+        "Pack appropriately",
+        "Travel to mountains"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Finish the book club reading by next month",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10T23:59",
+      "notes": "Engage with the material to contribute meaningfully to the discussion.",
+      "checklist": [
+        "Obtain the book",
+        "Set reading schedule",
+        "Read assigned chapters",
+        "Take notes",
+        "Prepare discussion points"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Call the vet for the cat’s checkup",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-15T23:59",
+      "notes": "Ensure to discuss any concerns and schedule necessary vaccinations.",
+      "checklist": [
+        "Find vet's contact information",
+        "Call to schedule appointment",
+        "Prepare questions and concerns",
+        "Attend appointment",
+        "Follow up on any recommendations"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Clean the patio every month",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Focus on sweeping, washing surfaces, and organizing outdoor furniture.",
+      "checklist": [
+        "Sweep the patio",
+        "Wash surfaces",
+        "Organize furniture",
+        "Dispose of any trash",
+        "Check for repairs needed"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Attend the seminar at 9 AM",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startDay": "2025-03-10",
+      "startTime": "09:00",
+      "notes": "Arrive early to network and find a good seat.",
+      "checklist": [
+        "Prepare questions",
+        "Dress appropriately",
+        "Arrive early",
+        "Network with attendees",
+        "Take notes during seminar"
+      ]
+    }
+  ]
+}

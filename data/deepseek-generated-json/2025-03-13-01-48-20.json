@@ -1,0 +1,178 @@
+{
+  "tasks": [
+    {
+      "priority": 1,
+      "content": "Pay the utility bill by the due date",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-31",
+      "notes": "Ensure to check the due date on the bill to avoid late fees.",
+      "checklist": [
+        "Locate the utility bill",
+        "Check the due date",
+        "Arrange payment method",
+        "Confirm payment"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the yoga class at 5 PM",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-16"
+      },
+      "public": true,
+      "active": true,
+      "startTime": "17:00",
+      "notes": "Bring yoga mat and water bottle.",
+      "checklist": [
+        "Prepare yoga mat",
+        "Pack water bottle",
+        "Wear comfortable clothes",
+        "Leave on time"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the basement this weekend",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16",
+      "notes": "Sort items into keep, donate, and discard piles.",
+      "checklist": [
+        "Gather cleaning supplies",
+        "Sort items",
+        "Clean surfaces",
+        "Organize remaining items"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Write the quarterly report by the 30th",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-30",
+      "notes": "Include all relevant data and analysis.",
+      "checklist": [
+        "Gather necessary data",
+        "Outline report structure",
+        "Write draft",
+        "Review and finalize report"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice guitar for an hour every day",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "18:00",
+      "notes": "Focus on new chords and songs.",
+      "checklist": [
+        "Set aside time",
+        "Choose songs to practice",
+        "Practice chords",
+        "Review progress"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Buy a gift for the wedding",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-20",
+      "notes": "Consider the couple's registry or personal preferences.",
+      "checklist": [
+        "Determine budget",
+        "Choose gift",
+        "Purchase gift",
+        "Wrap gift"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take the car for an oil change next week",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Check for any additional maintenance needs.",
+      "checklist": [
+        "Schedule appointment",
+        "Prepare car",
+        "Take car to service center",
+        "Review service report"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the mountains every winter",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "YEAR",
+        "every": 1,
+        "nextDate": "2025-12-01"
+      },
+      "public": true,
+      "active": true,
+      "notes": "Plan for accommodations and activities.",
+      "checklist": [
+        "Choose destination",
+        "Book accommodations",
+        "Plan activities",
+        "Pack appropriately"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Finish the book club reading by next month",
+      "difficulty": 3,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "deadline": "2025-04-10",
+      "notes": "Take notes for discussion.",
+      "checklist": [
+        "Set reading schedule",
+        "Read book",
+        "Take notes",
+        "Prepare for discussion"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Call the vet for the cat’s checkup",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-15",
+      "notes": "Prepare any questions or concerns for the vet.",
+      "checklist": [
+        "Find vet's contact information",
+        "Schedule appointment",
+        "Prepare questions",
+        "Confirm appointment"
+      ]
+    }
+  ]
+}

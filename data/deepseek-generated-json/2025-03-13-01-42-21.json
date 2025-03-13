@@ -1,0 +1,176 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Go to the dentist",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 6,
+        "nextDate": "2025-09-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Ensure to schedule the next appointment before leaving.",
+      "checklist": [
+        "Schedule appointment",
+        "Check insurance coverage",
+        "Prepare questions for the dentist"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Buy groceries for the week",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-16"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Check pantry and fridge before going to the store.",
+      "checklist": [
+        "Make a grocery list",
+        "Check for coupons",
+        "Plan meals for the week"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the painting project",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10",
+      "notes": "Ensure all materials are ready before starting.",
+      "checklist": [
+        "Buy necessary painting supplies",
+        "Prepare the area for painting",
+        "Start with the base coat",
+        "Apply the final coat",
+        "Clean up after finishing"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Take a walk after breakfast",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "08:00",
+      "notes": "Aim for at least 30 minutes of walking.",
+      "checklist": [
+        "Wear comfortable shoes",
+        "Stay hydrated",
+        "Choose a scenic route"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Call the bank to update information",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Have all necessary documents ready before calling.",
+      "checklist": [
+        "Gather necessary documents",
+        "Prepare a list of updates",
+        "Call during business hours"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Organize the closet",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Consider donating items that are no longer needed.",
+      "checklist": [
+        "Sort clothes by season",
+        "Decide what to keep, donate, or discard",
+        "Organize remaining items neatly"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Watch a comedy show tonight",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "20:00",
+      "deadline": "2025-03-10T23:59",
+      "notes": "Check streaming platforms for available shows.",
+      "checklist": [
+        "Choose a comedy show",
+        "Prepare snacks",
+        "Ensure comfortable seating"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Pay the credit card bill",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-20",
+      "notes": "Ensure payment is made before the due date to avoid fees.",
+      "checklist": [
+        "Check the bill amount",
+        "Choose payment method",
+        "Confirm payment"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the yoga class",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "19:00",
+      "deadline": "2025-03-10T23:59",
+      "notes": "Bring a yoga mat and water bottle.",
+      "checklist": [
+        "Wear comfortable clothing",
+        "Bring yoga mat",
+        "Stay hydrated"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Clean the attic",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16",
+      "notes": "Wear protective gear and have cleaning supplies ready.",
+      "checklist": [
+        "Gather cleaning supplies",
+        "Wear protective gear",
+        "Sort items to keep, donate, or discard",
+        "Clean the area thoroughly"
+      ]
+    }
+  ]
+}

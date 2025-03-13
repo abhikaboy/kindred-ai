@@ -1,0 +1,123 @@
+{
+  "tasks": [
+    {
+      "priority": 1,
+      "content": "Go to the gym at 5 AM",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-11"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "05:00",
+      "deadline": "2025-03-11T05:00"
+    },
+    {
+      "priority": 2,
+      "content": "Clean the kitchen every night",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "20:00",
+      "deadline": "2025-03-10T23:59"
+    },
+    {
+      "priority": 1,
+      "content": "Call the plumber for the faucet",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-12T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Write the blog post by next Wednesday",
+      "difficulty": 4,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "deadline": "2025-03-19T23:59"
+    },
+    {
+      "priority": 1,
+      "content": "Pay the rent by the first of the month",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-01"
+      },
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-01T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Go to the coffee shop every morning",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-11"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "07:00",
+      "deadline": "2025-03-11T07:00"
+    },
+    {
+      "priority": 1,
+      "content": "Finish the report by end of day tomorrow",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-11T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Practice meditation every evening",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "19:00",
+      "deadline": "2025-03-10T23:59"
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new laptop sleeve",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Take the dog to the vet next week",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59"
+    }
+  ]
+}

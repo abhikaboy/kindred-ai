@@ -1,0 +1,195 @@
+{
+  "tasks": [
+    {
+      "priority": 1,
+      "content": "Plan the baby shower for next month",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10",
+      "notes": "Consider venue, guest list, and theme.",
+      "checklist": [
+        "Choose a date",
+        "Select a venue",
+        "Create guest list",
+        "Decide on a theme",
+        "Plan the menu",
+        "Send out invitations",
+        "Organize games and activities",
+        "Prepare thank you gifts",
+        "Set up decorations",
+        "Confirm final details"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the library every Sunday",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-16"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Check library hours and any special events.",
+      "checklist": [
+        "Prepare books to return",
+        "Check out new books",
+        "Attend any special events"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Submit the scholarship application by the deadline",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-31",
+      "notes": "Gather all necessary documents and recommendations.",
+      "checklist": [
+        "Complete application form",
+        "Write personal statement",
+        "Gather transcripts",
+        "Request recommendation letters",
+        "Review and submit application"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice violin for 30 minutes daily",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Focus on scales and a new piece each week.",
+      "checklist": [
+        "Warm up with scales",
+        "Practice current piece",
+        "Learn new piece",
+        "Review and adjust technique"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new water bottle",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Consider size, material, and design.",
+      "checklist": [
+        "Research options",
+        "Compare prices",
+        "Purchase water bottle"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take the kids to the zoo every weekend",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-16"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Check zoo hours and any special exhibits.",
+      "checklist": [
+        "Pack snacks and water",
+        "Prepare sunscreen and hats",
+        "Plan transportation",
+        "Check for any special events"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the project by next week",
+      "difficulty": 5,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Allocate time each day for focused work.",
+      "checklist": [
+        "Outline project requirements",
+        "Assign tasks",
+        "Conduct research",
+        "Draft project",
+        "Review and revise",
+        "Finalize project",
+        "Prepare presentation"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the gym at 6 AM",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "06:00",
+      "notes": "Prepare gym clothes and water bottle the night before.",
+      "checklist": [
+        "Set alarm",
+        "Prepare gym bag",
+        "Warm up",
+        "Follow workout plan",
+        "Cool down and stretch"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Clean the bathroom every night",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Focus on high-touch areas and surfaces.",
+      "checklist": [
+        "Wipe down surfaces",
+        "Clean toilet",
+        "Scrub shower/bathtub",
+        "Mop floor",
+        "Take out trash"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Call the repairman for the dishwasher",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-12",
+      "notes": "Describe the issue and schedule a visit.",
+      "checklist": [
+        "Identify problem",
+        "Research repair services",
+        "Call and schedule appointment",
+        "Prepare for repairman visit"
+      ]
+    }
+  ]
+}

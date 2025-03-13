@@ -1,0 +1,179 @@
+{
+  "tasks": [
+    {
+      "priority": 1,
+      "content": "Finish the online certification by next month",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10",
+      "notes": "Ensure all modules are completed and the final exam is passed.",
+      "checklist": [
+        "Review all course materials",
+        "Complete all assignments",
+        "Take the final exam",
+        "Submit any required documentation"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go for a bike ride this weekend",
+      "difficulty": 2,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "startDay": "2025-03-15",
+      "notes": "Check the weather forecast and prepare the bike.",
+      "checklist": [
+        "Check bike condition",
+        "Plan the route",
+        "Pack water and snacks",
+        "Wear appropriate gear"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Call the doctor for the test results",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startDay": "2025-03-10",
+      "notes": "Ensure to have the necessary information ready before calling.",
+      "checklist": [
+        "Prepare patient ID",
+        "Note down any questions",
+        "Call during office hours"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Write the monthly newsletter by the 20th",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-03-20"
+      },
+      "public": true,
+      "active": true,
+      "notes": "Include updates, upcoming events, and member highlights.",
+      "checklist": [
+        "Gather updates",
+        "Draft content",
+        "Review with team",
+        "Send out newsletter"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the attic every six months",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 6,
+        "nextDate": "2025-09-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Sort items to keep, donate, or discard.",
+      "checklist": [
+        "Prepare cleaning supplies",
+        "Sort through items",
+        "Organize kept items",
+        "Dispose of unwanted items"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Meet with the client at 1 PM",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startDay": "2025-03-10",
+      "startTime": "13:00",
+      "notes": "Prepare the presentation and review the agenda.",
+      "checklist": [
+        "Prepare presentation",
+        "Review agenda",
+        "Confirm meeting time",
+        "Bring necessary documents"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Plan the weekend getaway",
+      "difficulty": 3,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "deadline": "2025-03-14",
+      "notes": "Research destinations, accommodations, and activities.",
+      "checklist": [
+        "Choose destination",
+        "Book accommodations",
+        "Plan activities",
+        "Pack essentials"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the dentist every year",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "YEAR",
+        "every": 1,
+        "nextDate": "2026-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Schedule the appointment in advance.",
+      "checklist": [
+        "Call to schedule appointment",
+        "Prepare any necessary documents",
+        "Attend the appointment"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Buy groceries for the month",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-01"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Plan meals and make a shopping list.",
+      "checklist": [
+        "Plan meals",
+        "Make shopping list",
+        "Check pantry for existing items",
+        "Go shopping"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the DIY project by next weekend",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16",
+      "notes": "Ensure all materials are ready and follow the project plan.",
+      "checklist": [
+        "Gather all materials",
+        "Follow project steps",
+        "Check progress daily",
+        "Finalize project"
+      ]
+    }
+  ]
+}

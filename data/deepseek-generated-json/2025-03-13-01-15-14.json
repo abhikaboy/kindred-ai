@@ -1,0 +1,184 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Water the plants",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-11"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "07:00",
+      "notes": "Ensure all plants are watered adequately.",
+      "checklist": [
+        "Check soil moisture",
+        "Fill watering can",
+        "Water each plant"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Call the dentist to schedule an appointment",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-14T23:59",
+      "notes": "Check available times that fit your schedule.",
+      "checklist": [
+        "Find dentist's contact information",
+        "Prepare questions or concerns",
+        "Make the call"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Read a chapter of my book before bed",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "21:00",
+      "notes": "Choose a comfortable spot to read.",
+      "checklist": [
+        "Select book",
+        "Find a comfortable reading spot",
+        "Read one chapter"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Clean the kitchen after dinner",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "19:00",
+      "notes": "Focus on wiping surfaces and washing dishes.",
+      "checklist": [
+        "Clear the table",
+        "Wipe down surfaces",
+        "Wash dishes"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go for a run",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [true, true, true, true, true, false, false],
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "07:00",
+      "notes": "Wear comfortable running shoes.",
+      "checklist": [
+        "Put on running gear",
+        "Stretch before running",
+        "Run for at least 30 minutes"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Pick up groceries on the way home",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-10T23:59",
+      "notes": "Check the grocery list before leaving.",
+      "checklist": [
+        "Check grocery list",
+        "Drive to the store",
+        "Purchase items"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the report",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-10T23:59",
+      "notes": "Ensure all data is accurate and well-presented.",
+      "checklist": [
+        "Review report outline",
+        "Compile data",
+        "Write conclusion"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice guitar for 30 minutes",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "20:00",
+      "notes": "Focus on chords and scales.",
+      "checklist": [
+        "Tune the guitar",
+        "Practice chords",
+        "Practice scales"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Send the client proposal",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-11T23:59",
+      "notes": "Double-check the proposal for any errors.",
+      "checklist": [
+        "Review proposal",
+        "Attach necessary documents",
+        "Send email"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take the dog for a walk",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "18:00",
+      "notes": "Bring a leash and waste bags.",
+      "checklist": [
+        "Put on leash",
+        "Walk around the neighborhood",
+        "Clean up after the dog"
+      ]
+    }
+  ]
+}

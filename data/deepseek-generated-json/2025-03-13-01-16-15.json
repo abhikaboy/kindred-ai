@@ -1,0 +1,177 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Plan the weekend trip",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-15T23:59",
+      "startDay": "2025-03-10",
+      "notes": "Consider destinations, budget, and activities.",
+      "checklist": [
+        "Choose destination",
+        "Set budget",
+        "Plan activities",
+        "Book accommodations",
+        "Pack essentials"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Organize the closet this weekend",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16T23:59",
+      "startDay": "2025-03-10",
+      "notes": "Sort clothes by season and donate unwanted items.",
+      "checklist": [
+        "Sort clothes",
+        "Donate unwanted items",
+        "Organize remaining items"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Write a blog post by next Monday",
+      "difficulty": 4,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "startDay": "2025-03-10",
+      "notes": "Choose a topic, research, draft, and edit.",
+      "checklist": [
+        "Choose topic",
+        "Research",
+        "Draft post",
+        "Edit post",
+        "Publish post"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Attend the team meeting at 10 AM",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "10:00",
+      "startDay": "2025-03-10",
+      "notes": "Prepare any necessary materials beforehand.",
+      "checklist": [
+        "Prepare materials",
+        "Attend meeting"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Meditate for 10 minutes every morning",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "07:00",
+      "notes": "Find a quiet space and focus on breathing.",
+      "checklist": [
+        "Find quiet space",
+        "Set timer",
+        "Focus on breathing"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Pay the electricity bill by the 15th",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-15T23:59",
+      "startDay": "2025-03-10",
+      "notes": "Ensure payment is made to avoid late fees.",
+      "checklist": [
+        "Check bill amount",
+        "Make payment"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Cook dinner at 6 PM",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "18:00",
+      "startDay": "2025-03-10",
+      "notes": "Prepare a healthy and balanced meal.",
+      "checklist": [
+        "Choose recipe",
+        "Prepare ingredients",
+        "Cook meal"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Study for the exam every night",
+      "difficulty": 4,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "20:00",
+      "notes": "Focus on key topics and practice problems.",
+      "checklist": [
+        "Review notes",
+        "Practice problems",
+        "Focus on key topics"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Buy a birthday gift for Sarah by next week",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "startDay": "2025-03-10",
+      "notes": "Consider Sarah's interests and preferences.",
+      "checklist": [
+        "Consider interests",
+        "Choose gift",
+        "Purchase gift"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Vacuum the living room every Saturday",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-15"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Ensure the living room is clean and tidy.",
+      "checklist": [
+        "Prepare vacuum",
+        "Vacuum living room",
+        "Clean up"
+      ]
+    }
+  ]
+}

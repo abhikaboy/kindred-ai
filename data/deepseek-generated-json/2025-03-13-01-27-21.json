@@ -1,0 +1,181 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Plan the weekend getaway",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16",
+      "notes": "Consider destination, budget, and activities.",
+      "checklist": [
+        "Choose a destination",
+        "Set a budget",
+        "Plan activities",
+        "Book accommodations",
+        "Pack essentials"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the dentist every year",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "YEAR",
+        "every": 1,
+        "nextDate": "2026-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Schedule an appointment for a dental check-up.",
+      "checklist": [
+        "Find a dentist",
+        "Schedule an appointment",
+        "Prepare any necessary documents"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Buy groceries for the month",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Make a list of needed groceries and stick to the budget.",
+      "checklist": [
+        "Make a grocery list",
+        "Check pantry for items needed",
+        "Go to the grocery store",
+        "Organize groceries at home"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the DIY project by next weekend",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16",
+      "notes": "Ensure all materials are ready and allocate time each day to work on the project.",
+      "checklist": [
+        "Gather all materials",
+        "Allocate daily time slots for the project",
+        "Work on the project step by step",
+        "Finalize and clean up"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Take a walk after dinner every day",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Aim for at least 30 minutes to promote digestion and relaxation.",
+      "checklist": [
+        "Put on comfortable shoes",
+        "Decide on a route",
+        "Start walking",
+        "Stretch after the walk"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Call the credit card company",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Discuss any issues or inquire about services.",
+      "checklist": [
+        "Prepare necessary account information",
+        "Call the customer service number",
+        "Discuss your inquiry or issue",
+        "Take notes during the call"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Organize the pantry every month",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Discard expired items and reorganize for better accessibility.",
+      "checklist": [
+        "Remove all items from the pantry",
+        "Discard expired items",
+        "Clean the shelves",
+        "Reorganize items by category"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Watch a documentary tonight",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-10T23:59",
+      "notes": "Choose a documentary that interests you and relax.",
+      "checklist": [
+        "Select a documentary",
+        "Prepare snacks",
+        "Watch the documentary",
+        "Reflect on what you learned"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Pay the utility bill by the due date",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-15",
+      "notes": "Ensure payment is made on time to avoid late fees.",
+      "checklist": [
+        "Check the bill amount",
+        "Choose a payment method",
+        "Make the payment",
+        "Confirm payment receipt"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the yoga class at 5 PM",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "17:00",
+      "deadline": "2025-03-10T17:00",
+      "notes": "Prepare your yoga mat and water bottle.",
+      "checklist": [
+        "Prepare yoga mat",
+        "Bring a water bottle",
+        "Wear comfortable clothing",
+        "Arrive on time"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "tasks": [
+    {
+      "priority": 3,
+      "content": "Clean the patio",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-10"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 1,
+      "content": "Attend the seminar",
+      "difficulty": 1,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "startTime": "09:00"
+    },
+    {
+      "priority": 2,
+      "content": "Plan the baby shower",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Go to the library",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-16"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 1,
+      "content": "Submit the scholarship application",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-10T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Practice violin for 30 minutes",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new water bottle",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 2,
+      "content": "Take the kids to the zoo",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, true, true],
+        "nextDate": "2025-03-15"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 1,
+      "content": "Finish the project",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Go to the gym",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "06:00"
+    }
+  ]
+}

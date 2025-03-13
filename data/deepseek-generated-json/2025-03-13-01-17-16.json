@@ -1,0 +1,177 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Reply to emails before lunch",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "12:00",
+      "deadline": "2025-03-10T12:00",
+      "notes": "Ensure all important emails are replied to before lunch.",
+      "checklist": [
+        "Check inbox",
+        "Prioritize emails",
+        "Draft replies",
+        "Send replies"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the library after work",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "18:00",
+      "deadline": "2025-03-10T20:00",
+      "notes": "Pick up reserved books and return any due books.",
+      "checklist": [
+        "Check library hours",
+        "Gather books to return",
+        "List of books to pick up"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Complete the project draft by Friday",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-14T23:59",
+      "notes": "Ensure all sections are completed and reviewed.",
+      "checklist": [
+        "Outline project sections",
+        "Draft content",
+        "Review and revise",
+        "Finalize draft"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Stretch for 15 minutes every morning",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "07:00",
+      "notes": "Focus on major muscle groups to improve flexibility.",
+      "checklist": [
+        "Set alarm for stretching",
+        "Choose stretching routine",
+        "Perform stretches"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Schedule a haircut for next week",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "notes": "Call or book online for a convenient time.",
+      "checklist": [
+        "Choose a salon",
+        "Decide on a time",
+        "Make appointment"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Watch the new episode of my favorite show tonight",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "20:00",
+      "deadline": "2025-03-10T23:59",
+      "notes": "Check streaming service for availability.",
+      "checklist": [
+        "Check streaming service",
+        "Prepare snacks",
+        "Watch episode"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Clean out the fridge this weekend",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16T23:59",
+      "notes": "Dispose of expired items and wipe down shelves.",
+      "checklist": [
+        "Remove all items",
+        "Check expiration dates",
+        "Wipe down shelves",
+        "Reorganize items"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Call mom every Sunday",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-16"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "10:00",
+      "notes": "Catch up on the week and plan for the next.",
+      "checklist": [
+        "Set reminder",
+        "Prepare topics to discuss",
+        "Make the call"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Submit the application by the deadline",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-14T23:59",
+      "notes": "Ensure all required documents are attached.",
+      "checklist": [
+        "Review application requirements",
+        "Gather necessary documents",
+        "Complete application form",
+        "Submit application"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take a yoga class every Wednesday",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, true, false],
+        "nextDate": "2025-03-12"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "18:00",
+      "notes": "Focus on relaxation and flexibility.",
+      "checklist": [
+        "Find a yoga class",
+        "Book a spot",
+        "Prepare yoga mat",
+        "Attend class"
+      ]
+    }
+  ]
+}

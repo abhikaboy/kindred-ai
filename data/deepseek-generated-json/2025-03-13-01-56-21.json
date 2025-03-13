@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Buy a new laptop sleeve",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Ensure the sleeve fits the laptop size and has adequate padding.",
+      "checklist": [
+        "Measure laptop dimensions",
+        "Research online for laptop sleeves",
+        "Compare prices and reviews",
+        "Purchase the selected laptop sleeve"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Take the dog to the vet",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Check the dog's vaccination record and prepare any questions for the vet.",
+      "checklist": [
+        "Call the vet to schedule an appointment",
+        "Prepare the dog's vaccination record",
+        "List down any health concerns or questions",
+        "Transport the dog to the vet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Take the trash out every night",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "20:00",
+      "deadline": "2025-03-10T23:59"
+    },
+    {
+      "priority": 1,
+      "content": "Finish the online course by next month",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10"
+    },
+    {
+      "priority": 2,
+      "content": "Go for a hike this weekend",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startDay": "2025-03-15",
+      "deadline": "2025-03-16T23:59"
+    },
+    {
+      "priority": 1,
+      "content": "Call the insurance company by Friday",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-14T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Write the weekly newsletter by Thursday",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, true, false, false],
+        "nextDate": "2025-03-13"
+      },
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-13T23:59"
+    },
+    {
+      "priority": 3,
+      "content": "Clean the windows every month",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-10"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 2,
+      "content": "Meet with the team at 9 AM",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "09:00",
+      "startDay": "2025-03-10"
+    },
+    {
+      "priority": 3,
+      "content": "Plan the vacation itinerary",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-31T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Go to the dentist every six months",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 6,
+        "nextDate": "2025-09-10"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 2,
+      "content": "Buy groceries for the week",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-16"
+      },
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16T23:59"
+    }
+  ]
+}

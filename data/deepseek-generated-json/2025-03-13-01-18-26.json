@@ -1,0 +1,182 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Pick up the dry cleaning",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-10T17:00",
+      "notes": "Ensure to pick up before the dry cleaning closes.",
+      "checklist": [
+        "Check dry cleaning ticket",
+        "Go to the dry cleaners",
+        "Pick up clothes",
+        "Pay for the service"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Write thank-you notes",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-11T23:59",
+      "notes": "Personalize each note to make them meaningful.",
+      "checklist": [
+        "List people to thank",
+        "Buy thank-you cards",
+        "Write individual notes",
+        "Mail the notes"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the farmer’s market",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, true, false],
+        "nextDate": "2025-03-15"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Check for fresh produce and local goods.",
+      "checklist": [
+        "Prepare shopping list",
+        "Bring reusable bags",
+        "Check market hours",
+        "Visit the market"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the presentation slides",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-13T23:59",
+      "notes": "Ensure all data is accurate and slides are visually appealing.",
+      "checklist": [
+        "Gather all necessary information",
+        "Create outline",
+        "Design slides",
+        "Review and edit",
+        "Practice presentation"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Walk to work",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "A good way to incorporate exercise into daily routine.",
+      "checklist": [
+        "Prepare walking shoes",
+        "Check weather",
+        "Plan route",
+        "Walk to work"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Plan the monthly budget",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16T23:59",
+      "notes": "Review last month's expenses to better plan.",
+      "checklist": [
+        "Gather all financial statements",
+        "List all income sources",
+        "List all expenses",
+        "Allocate funds",
+        "Review and adjust"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Bake cookies for the party",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "notes": "Choose a recipe that most guests will enjoy.",
+      "checklist": [
+        "Select recipe",
+        "Buy ingredients",
+        "Prepare baking tools",
+        "Bake cookies",
+        "Decorate cookies"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Practice Spanish for 20 minutes daily",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Use a language learning app for structured practice.",
+      "checklist": [
+        "Choose learning material",
+        "Set timer for 20 minutes",
+        "Practice speaking",
+        "Review vocabulary"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Renew the gym membership",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10T23:59",
+      "notes": "Check for any new offers or discounts before renewing.",
+      "checklist": [
+        "Check membership expiration date",
+        "Review gym offers",
+        "Renew membership online or in person"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the car",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "every": 2,
+        "nextDate": "2025-03-24"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Include both interior and exterior cleaning.",
+      "checklist": [
+        "Gather cleaning supplies",
+        "Vacuum interior",
+        "Wipe down surfaces",
+        "Wash exterior",
+        "Wax if necessary"
+      ]
+    }
+  ]
+}

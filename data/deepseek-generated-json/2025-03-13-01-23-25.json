@@ -1,0 +1,187 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Buy a gift for the anniversary",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Consider the preferences of the person for whom the gift is intended.",
+      "checklist": [
+        "Determine the budget",
+        "Decide on the type of gift",
+        "Research where to buy the gift",
+        "Purchase the gift",
+        "Wrap the gift"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take the car for servicing next week",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Check the car's manual for the recommended service schedule.",
+      "checklist": [
+        "Find a reputable service center",
+        "Schedule an appointment",
+        "Prepare the car for servicing",
+        "Drop off the car",
+        "Pick up the car after servicing"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the beach every summer",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "YEAR",
+        "every": 1,
+        "nextDate": "2025-06-21"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Plan activities and pack accordingly for the beach trip.",
+      "checklist": [
+        "Check the weather forecast",
+        "Pack sunscreen and beachwear",
+        "Prepare beach games and activities",
+        "Arrange transportation",
+        "Book accommodations if necessary"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Finish the book club reading by next week",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Allocate daily reading time to finish the book on time.",
+      "checklist": [
+        "Determine the total pages to read",
+        "Divide the pages by the number of days",
+        "Set aside daily reading time",
+        "Take notes on important points",
+        "Prepare discussion points for the book club meeting"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Call the vet for the dog’s checkup",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Ensure the dog is up to date with vaccinations and health checks.",
+      "checklist": [
+        "Find the vet's contact information",
+        "Schedule an appointment",
+        "Prepare any questions or concerns for the vet",
+        "Transport the dog to the vet",
+        "Follow up on any recommendations from the vet"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the backyard every month",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Regular maintenance will keep the backyard in good condition.",
+      "checklist": [
+        "Remove any trash or debris",
+        "Mow the lawn if necessary",
+        "Trim bushes and trees",
+        "Check and clean outdoor furniture",
+        "Inspect and clean any outdoor equipment"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Attend the conference at 8 AM",
+      "difficulty": 2,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "startTime": "08:00",
+      "deadline": "2025-03-10T08:00",
+      "notes": "Prepare any materials or presentations needed for the conference.",
+      "checklist": [
+        "Confirm the conference location and time",
+        "Prepare any necessary materials",
+        "Plan transportation to the venue",
+        "Dress appropriately for the event",
+        "Network with other attendees"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Plan the birthday party for next month",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10",
+      "notes": "Consider the birthday person's preferences and the number of guests.",
+      "checklist": [
+        "Decide on a theme",
+        "Create a guest list",
+        "Choose a venue or location",
+        "Plan the menu and order food",
+        "Organize entertainment and activities"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the library every Saturday",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, true, false],
+        "nextDate": "2025-03-15"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Use this time to borrow new books or study.",
+      "checklist": [
+        "Prepare a list of books or materials needed",
+        "Check the library's opening hours",
+        "Bring a library card",
+        "Return any borrowed items",
+        "Explore new sections or books"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Submit the grant application by the deadline",
+      "difficulty": 5,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Ensure all required documents and information are prepared and accurate.",
+      "checklist": [
+        "Review the grant requirements",
+        "Gather necessary documents",
+        "Write and revise the application",
+        "Have the application reviewed by a peer or mentor",
+        "Submit the application before the deadline"
+      ]
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import json
 from openai import OpenAI
 from dotenv import load_dotenv
 import os   
+import datetime
 
 load_dotenv()
 
@@ -112,7 +113,14 @@ Pay my rent on the first of every month
 Change the air filter every 3 months
 
 
-Every sentence should be seperated with a ||| 
+Every sentence should be seperated with a , and should not include a number at all at the beginning of the line
+
+Example Output: 
+
+Go to the gym every weekend |||
+Play frisbee |||
+Get dinner in the Northend on Friday |||
+Go have lunch with John |||
 """
 def create_task(task=None):
   if task is None:
@@ -161,10 +169,36 @@ def generate_task_data():
     response = client.chat.completions.create(
       model="deepseek-chat",
       messages=[
-          {"role": "system", "content": system_prompt},
-          {"role": "user", "content": "Please generate 100 sentences of To do list items."},
+          {"role": "system", "content": data_gen_prompt},
+          {"role": "user", "content": 
+           """
+          Please generate 500 sentences of To do list items with 200 of them having
+          some sort of recurrence. and 200 of them having some sort of deadline and 100 of them having some sort of start time some wil not have any recurrence, deadline, or start time
+          Include all 500 and do not include any numbers at the beginning of the line. Do not only list 100
+          """},
       ],
       stream=False)
-    return response.choices[0].message.content
+    current_datetime = datetime.datetime.now()
+    time_label = current_datetime.strftime("%Y-%m-%d-%H-%M-%S")
+    with open(f"data/deepseekData-{time_label}.csv", "w") as file:
+        file.write(response.choices[0].message.content)
 
-print(generate_task_data())
+# print(generate_task_data())
+
+with open("./data/sentenceInput.csv", "r") as file:
+    data = file.read()
+    # get each row
+    rows = data.split("\n")
+    # break into a nested array where each element has up to 10 rows
+    nested_rows = [rows[i:i+10] for i in range(0, len(rows), 10)]
+    for row in nested_rows:
+       # turn the row into a string
+       row_string = "\n".join(row)
+       tasks = create_task("Here are 10 sentences i would like converted to a task: \n" + row_string)
+       print(tasks)
+       current_datetime = datetime.datetime.now()
+       time_label = current_datetime.strftime("%Y-%m-%d-%H-%M-%S")
+       directory = "data/deepseek-generated-json/"
+       os.makedirs(directory, exist_ok=True)  # This creates all necessary directories
+       with open(f"{directory}{time_label}.json", "w") as file:
+           file.write(tasks)

@@ -1,0 +1,187 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Go for a jog this weekend",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16T23:59",
+      "startDay": "2025-03-15",
+      "notes": "Ensure to wear comfortable running shoes and stay hydrated.",
+      "checklist": [
+        "Check the weather forecast",
+        "Prepare running gear",
+        "Plan the jogging route",
+        "Set a specific time for the jog"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Call the doctor for the prescription",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-12T23:59",
+      "notes": "Prepare any questions or concerns to discuss with the doctor.",
+      "checklist": [
+        "Find the doctor's contact information",
+        "Prepare a list of medications needed",
+        "Schedule a convenient time for the call"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Write the weekly newsletter by Wednesday",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, true, false, false, false, false],
+        "nextDate": "2025-03-12"
+      },
+      "public": true,
+      "active": true,
+      "deadline": "2025-03-12T23:59",
+      "notes": "Include updates, upcoming events, and any important announcements.",
+      "checklist": [
+        "Gather content and updates",
+        "Draft the newsletter",
+        "Review and edit",
+        "Send to subscribers"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the garage every six months",
+      "difficulty": 4,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 6,
+        "nextDate": "2025-09-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Plan a day to sort, organize, and dispose of unnecessary items.",
+      "checklist": [
+        "Schedule a cleaning day",
+        "Gather cleaning supplies",
+        "Sort items into keep, donate, and discard piles",
+        "Organize kept items efficiently"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Meet with the team at 8 AM",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "08:00",
+      "startDay": "2025-03-10",
+      "notes": "Prepare the agenda and any materials needed for the meeting.",
+      "checklist": [
+        "Confirm meeting time with team",
+        "Prepare agenda",
+        "Gather necessary materials",
+        "Set up meeting space or virtual meeting link"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Plan the summer vacation",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-05-31T23:59",
+      "notes": "Consider destinations, budget, and activities for the vacation.",
+      "checklist": [
+        "Research destinations",
+        "Set a budget",
+        "Book accommodations and transportation",
+        "Plan activities and excursions"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the dentist every six months",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 6,
+        "nextDate": "2025-09-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Schedule an appointment for a check-up and cleaning.",
+      "checklist": [
+        "Find a dentist",
+        "Schedule an appointment",
+        "Prepare any dental records",
+        "Plan transportation to the appointment"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Buy groceries for the week",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-16"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Make a list of needed items to avoid forgetting anything.",
+      "checklist": [
+        "Make a grocery list",
+        "Check pantry and fridge for needed items",
+        "Plan the shopping trip",
+        "Purchase and organize groceries"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Finish the painting project by next month",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10T23:59",
+      "notes": "Allocate time each week to work on the project to meet the deadline.",
+      "checklist": [
+        "Gather all painting supplies",
+        "Set a weekly goal",
+        "Work on the project regularly",
+        "Review and touch up as needed"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take a walk after breakfast every day",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "08:00",
+      "notes": "Use this time to relax and prepare for the day ahead.",
+      "checklist": [
+        "Set a specific time for the walk",
+        "Wear comfortable shoes",
+        "Plan a route",
+        "Stay consistent"
+      ]
+    }
+  ]
+}

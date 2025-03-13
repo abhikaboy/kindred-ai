@@ -1,0 +1,180 @@
+{
+  "tasks": [
+    {
+      "priority": 1,
+      "content": "Write the annual report",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-31",
+      "notes": "Ensure all sections are comprehensive and data is accurate.",
+      "checklist": [
+        "Gather all necessary data",
+        "Outline report structure",
+        "Write introduction",
+        "Compile financial data",
+        "Write conclusion",
+        "Review and edit"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice piano for an hour",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Focus on improving finger strength and accuracy.",
+      "checklist": [
+        "Warm-up exercises",
+        "Practice scales",
+        "Work on new piece",
+        "Review old pieces"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Buy a gift for the graduation",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-06-01",
+      "notes": "Consider the graduate's interests and preferences.",
+      "checklist": [
+        "Determine budget",
+        "Choose gift",
+        "Purchase gift",
+        "Wrap gift"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take the car for maintenance",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Check for any specific issues to mention to the mechanic.",
+      "checklist": [
+        "Schedule appointment",
+        "Prepare car",
+        "Drop off car",
+        "Pick up car"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the lake every summer",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "YEAR",
+        "every": 1,
+        "nextDate": "2025-06-21"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Plan activities and accommodations in advance.",
+      "checklist": [
+        "Choose dates",
+        "Book accommodations",
+        "Plan activities",
+        "Pack essentials"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Finish the book club reading",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Take notes on key themes and discussion points.",
+      "checklist": [
+        "Read assigned chapters",
+        "Take notes",
+        "Prepare discussion points",
+        "Attend book club meeting"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Call the vet for the rabbit’s checkup",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Ask about any specific care instructions.",
+      "checklist": [
+        "Find vet contact information",
+        "Schedule appointment",
+        "Prepare rabbit for visit",
+        "Attend appointment"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the deck every month",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-01"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Check for any repairs needed.",
+      "checklist": [
+        "Sweep deck",
+        "Wash deck",
+        "Inspect for repairs",
+        "Apply sealant if necessary"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Attend the conference at 7 AM",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "07:00",
+      "deadline": "2025-03-10T07:00",
+      "notes": "Prepare questions and materials in advance.",
+      "checklist": [
+        "Prepare materials",
+        "Set alarm",
+        "Travel to venue",
+        "Attend conference"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Plan the anniversary celebration for next month",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10",
+      "notes": "Consider venue, guest list, and activities.",
+      "checklist": [
+        "Choose venue",
+        "Create guest list",
+        "Plan menu",
+        "Send invitations",
+        "Plan activities"
+      ]
+    }
+  ]
+}

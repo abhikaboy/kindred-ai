@@ -1,0 +1,113 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Go to the library",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, true, false],
+        "nextDate": "2025-03-15"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 1,
+      "content": "Submit the application",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17"
+    },
+    {
+      "priority": 2,
+      "content": "Practice cello for 30 minutes",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new umbrella",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 2,
+      "content": "Take the kids to the playground",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, true, true],
+        "nextDate": "2025-03-15"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 1,
+      "content": "Finish the assignment",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17"
+    },
+    {
+      "priority": 2,
+      "content": "Go to the gym",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "05:00"
+    },
+    {
+      "priority": 2,
+      "content": "Clean the kitchen",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 1,
+      "content": "Call the plumber for the faucet",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 1,
+      "content": "Write the blog post",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-12"
+    }
+  ]
+}

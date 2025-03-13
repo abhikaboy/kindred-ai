@@ -1,0 +1,169 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Attend the lecture at 10 AM",
+      "difficulty": 2,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "startTime": "10:00",
+      "deadline": "2025-03-10T10:00",
+      "notes": "Make sure to prepare any materials needed for the lecture.",
+      "checklist": [
+        "Check the lecture topic",
+        "Prepare notes",
+        "Set alarm for 9:30 AM"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Plan the holiday party",
+      "difficulty": 3,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "deadline": "2025-12-20",
+      "notes": "Consider venue, catering, and guest list.",
+      "checklist": [
+        "Decide on a date",
+        "Choose a venue",
+        "Create guest list",
+        "Order catering"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Go to the gym every Monday and Wednesday",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [true, false, true, false, false, false, false],
+        "nextDate": "2025-03-10"
+      },
+      "public": true,
+      "active": true,
+      "notes": "Prepare gym bag the night before.",
+      "checklist": [
+        "Pack gym clothes",
+        "Set alarm",
+        "Check gym schedule"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Finish the presentation by next Friday",
+      "difficulty": 4,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "deadline": "2025-03-14T23:59",
+      "notes": "Ensure all data is accurate and slides are visually appealing.",
+      "checklist": [
+        "Gather all necessary data",
+        "Create outline",
+        "Design slides",
+        "Rehearse presentation"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice Italian for 15 minutes daily",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": true,
+      "active": true,
+      "notes": "Use a language learning app for structured practice.",
+      "checklist": [
+        "Choose a learning app",
+        "Set daily reminder",
+        "Track progress"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new pair of sunglasses",
+      "difficulty": 1,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "deadline": "2025-03-17",
+      "notes": "Consider UV protection and style.",
+      "checklist": [
+        "Research brands",
+        "Set a budget",
+        "Visit stores"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Take the trash out every evening",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": true,
+      "active": true,
+      "notes": "Check all bins in the house.",
+      "checklist": [
+        "Check kitchen bin",
+        "Check bathroom bins",
+        "Take out trash"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Finish the online course by next quarter",
+      "difficulty": 4,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "deadline": "2025-06-30",
+      "notes": "Allocate specific hours each week for the course.",
+      "checklist": [
+        "Set weekly goals",
+        "Complete weekly assignments",
+        "Review course material"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go for a jog this weekend",
+      "difficulty": 2,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "deadline": "2025-03-16",
+      "notes": "Choose a scenic route for motivation.",
+      "checklist": [
+        "Choose a route",
+        "Prepare jogging gear",
+        "Set a time"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Call the doctor for the prescription",
+      "difficulty": 2,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "deadline": "2025-03-14",
+      "notes": "Have insurance information ready.",
+      "checklist": [
+        "Find doctor's contact information",
+        "Prepare questions",
+        "Call during office hours"
+      ]
+    }
+  ]
+}

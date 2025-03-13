@@ -1,0 +1,172 @@
+{
+  "tasks": [
+    {
+      "priority": 3,
+      "content": "Go to the lake every summer",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "YEAR",
+        "every": 1,
+        "nextDate": "2025-06-01"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Ensure to check the weather and pack accordingly.",
+      "checklist": [
+        "Check weather forecast",
+        "Pack necessary items",
+        "Plan transportation"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Finish the book club reading by next week",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59",
+      "notes": "Allocate specific times daily for reading to meet the deadline.",
+      "checklist": [
+        "Set daily reading goals",
+        "Take notes on key points",
+        "Prepare discussion points"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Call the vet for the rabbit’s checkup",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-12T23:59",
+      "notes": "Prepare a list of questions or concerns to discuss with the vet.",
+      "checklist": [
+        "Find vet contact information",
+        "Prepare questions",
+        "Schedule appointment"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Clean the deck every month",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-01"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Check weather conditions before cleaning and ensure all cleaning supplies are ready.",
+      "checklist": [
+        "Gather cleaning supplies",
+        "Check weather forecast",
+        "Clean the deck"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Attend the conference at 7 AM",
+      "difficulty": 2,
+      "recurring": false,
+      "public": true,
+      "active": true,
+      "startTime": "07:00",
+      "deadline": "2025-03-11T07:00",
+      "notes": "Prepare all necessary materials and plan your route to the conference venue.",
+      "checklist": [
+        "Prepare materials",
+        "Plan transportation",
+        "Set alarm"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Plan the anniversary celebration for next month",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10T23:59",
+      "notes": "Start by deciding on a theme, then proceed to invitations, venue, and catering.",
+      "checklist": [
+        "Decide on a theme",
+        "Send out invitations",
+        "Book venue",
+        "Arrange catering"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Go to the library every Saturday",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, true, false],
+        "nextDate": "2025-03-15"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Prepare a list of books or materials you need to borrow or return.",
+      "checklist": [
+        "Prepare book list",
+        "Check library hours",
+        "Plan visit"
+      ]
+    },
+    {
+      "priority": 1,
+      "content": "Submit the application by the deadline",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-14T23:59",
+      "notes": "Double-check all required documents and information before submission.",
+      "checklist": [
+        "Gather required documents",
+        "Review application",
+        "Submit application"
+      ]
+    },
+    {
+      "priority": 2,
+      "content": "Practice cello for 30 minutes daily",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "notes": "Set a specific time each day for practice to build a routine.",
+      "checklist": [
+        "Set daily practice time",
+        "Prepare music sheets",
+        "Practice"
+      ]
+    },
+    {
+      "priority": 3,
+      "content": "Buy a new umbrella",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-12T23:59",
+      "notes": "Consider the size, durability, and design before purchasing.",
+      "checklist": [
+        "Research options",
+        "Compare prices",
+        "Purchase umbrella"
+      ]
+    }
+  ]
+}

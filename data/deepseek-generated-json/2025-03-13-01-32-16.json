@@ -1,0 +1,120 @@
+{
+  "tasks": [
+    {
+      "priority": 1,
+      "content": "Write the weekly newsletter",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-12"
+      },
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-12T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Clean the garage",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 6,
+        "nextDate": "2025-09-10"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 1,
+      "content": "Meet with the team",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "08:00"
+    },
+    {
+      "priority": 2,
+      "content": "Plan the summer vacation",
+      "difficulty": 3,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-06-01T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Go to the dentist",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 6,
+        "nextDate": "2025-09-10"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 1,
+      "content": "Buy groceries for the week",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, false, true],
+        "nextDate": "2025-03-16"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 2,
+      "content": "Finish the painting project",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-04-10T23:59"
+    },
+    {
+      "priority": 3,
+      "content": "Take a walk after breakfast",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "08:00"
+    },
+    {
+      "priority": 1,
+      "content": "Call the bank to update information",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-15T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Organize the closet",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-10"
+      },
+      "public": false,
+      "active": true
+    }
+  ]
+}

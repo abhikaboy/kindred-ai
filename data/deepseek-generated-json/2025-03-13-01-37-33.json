@@ -1,0 +1,111 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Take a walk after dinner",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "19:00",
+      "deadline": "2025-03-10T23:59"
+    },
+    {
+      "priority": 1,
+      "content": "Call the credit card company",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-10T23:59"
+    },
+    {
+      "priority": 3,
+      "content": "Organize the pantry",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-10"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 2,
+      "content": "Watch a documentary",
+      "difficulty": 1,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-10T23:59"
+    },
+    {
+      "priority": 1,
+      "content": "Pay the utility bill",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-15T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Go to the yoga class",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "startTime": "17:00",
+      "deadline": "2025-03-10T23:59"
+    },
+    {
+      "priority": 3,
+      "content": "Clean the basement",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-16T23:59"
+    },
+    {
+      "priority": 1,
+      "content": "Write the quarterly report",
+      "difficulty": 5,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-30T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Practice guitar for an hour",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "20:00",
+      "deadline": "2025-03-10T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Buy a gift for the wedding",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-20T23:59"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "tasks": [
+    {
+      "priority": 2,
+      "content": "Take the kids to the playground",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "WEEK",
+        "days": [false, false, false, false, false, true, true],
+        "nextDate": "2025-03-15"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 1,
+      "content": "Finish the assignment",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-17T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Go to the gym",
+      "difficulty": 3,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-11"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "05:00"
+    },
+    {
+      "priority": 2,
+      "content": "Clean the kitchen",
+      "difficulty": 2,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "20:00"
+    },
+    {
+      "priority": 1,
+      "content": "Call the plumber for the faucet",
+      "difficulty": 2,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-12T23:59"
+    },
+    {
+      "priority": 1,
+      "content": "Write the blog post",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-12T23:59"
+    },
+    {
+      "priority": 1,
+      "content": "Pay the rent",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "MONTH",
+        "every": 1,
+        "nextDate": "2025-04-01"
+      },
+      "public": false,
+      "active": true
+    },
+    {
+      "priority": 2,
+      "content": "Go to the coffee shop",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-11"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "07:00"
+    },
+    {
+      "priority": 1,
+      "content": "Finish the report",
+      "difficulty": 4,
+      "recurring": false,
+      "public": false,
+      "active": true,
+      "deadline": "2025-03-11T23:59"
+    },
+    {
+      "priority": 2,
+      "content": "Practice meditation",
+      "difficulty": 1,
+      "recurring": true,
+      "recurDetails": {
+        "frequency": "DAY",
+        "every": 1,
+        "nextDate": "2025-03-10"
+      },
+      "public": false,
+      "active": true,
+      "startTime": "19:00"
+    }
+  ]
+}
